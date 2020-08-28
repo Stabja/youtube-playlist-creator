@@ -1,4 +1,3 @@
-const fs = require('fs');
 let { google } = require('googleapis');
 let OAuth2 = google.auth.OAuth2;
 const colors = require('colors');
@@ -10,9 +9,10 @@ const {
   readCredentialsFromFile,
   writeCredentialsToFile
 } = require('../utils/globalUtils');
-let { 
-  getToken } = require('../config/constants');
-const { credentials } = require('../config/client_secret_2');
+let {
+  getToken,
+  credentials
+} = require('../config/constants');
 let oauth2Client = null;
 
 
@@ -38,11 +38,20 @@ module.exports = {
         return res.status(500).json(err);
       }
     }
-    const CREDENTIALS = await readCredentialsFromFile();
-    oauth2Client.credentials = CREDENTIALS;
-    responseJson = CREDENTIALS;
+    const token = await readCredentialsFromFile();
+    let refreshedToken;
+    try {
+      let newToken = await oauth2Client.refreshToken(token.refresh_token);
+      refreshedToken = newToken.res.data;
+    } catch(err) {
+      console.log(`${err.errors}`.red);
+    }
+    refreshedToken.refresh_token = token.refresh_token;
+    oauth2Client.credentials = refreshedToken;
+    writeCredentialsToFile(refreshedToken);
+    responseJson = token;
     responseJson.status = "Token Already Exists";
-    console.log(`${JSON.stringify(oauth2Client, null, 2)}`.magenta);
+    console.log(`${JSON.stringify(oauth2Client.credentials, null, 2)}`.magenta);
     return res.json(responseJson);
   },
 
@@ -71,6 +80,7 @@ module.exports = {
     let response;
     try {
       response = await service.channels.list({
+        oauth_token: req.accessToken,
         key: req.query.key,
         id: req.query.id,
         part: req.query.part
@@ -86,18 +96,19 @@ module.exports = {
     return res.json(response.data);
   },
 
-  getChannelDetailsOfUser: (req, res) => {
+  getUserChannel: (req, res) => {
     let service = google.youtube('v3');
-    console.log(req.idToken);
+    console.log(req.accessToken);
     service.channels.list({
-      oauth_token: req.idToken,
+      oauth_token: req.accessToken,
       key: req.query.key,
       part: req.query.part,
       mine: req.query.mine
     }, (err, response) => {
       if (err) {
         console.log(`${JSON.stringify(err.errors, null, 2)}`.red);
-        return res.status(500).json({ error: err });
+        const { code, errors } = err;
+        return res.status(500).json({ code, errors });
       }
       let channels = response.data.items;
       if (channels.length == 0) {
@@ -112,6 +123,7 @@ module.exports = {
   getDudePerfectChannel: (req, res) => {
     let service = google.youtube('v3');
     service.channels.list({
+      oauth_token: req.accessToken,
       key: req.query.key,
       id: 'UCRijo3ddMTht_IHyNSNXpNQ',
       part: req.query.part,
@@ -131,6 +143,7 @@ module.exports = {
     let response;
     try {
       response = await youtube.search.list({
+        oauth_token: req.accessToken,
         key: req.query.key,
         part: req.query.part,
         order: req.query.order,

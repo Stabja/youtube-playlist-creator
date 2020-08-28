@@ -4,7 +4,7 @@ const {
   authorize,
   receiveAuthorizationCode,
   getChannelById,
-  getChannelDetailsOfUser,
+  getUserChannel,
   getDudePerfectChannel,
   searchVideo
 } = require('../controllers/channel.controller');
@@ -15,13 +15,13 @@ router.get('/authorize', authorize);
 
 router.get('/receiveCode', receiveAuthorizationCode);
 
-router.get('/', getChannelById);
+router.get('/' ,isUserAuthorized, getChannelById);
 
-router.get('/me', isUserAuthorized, getChannelDetailsOfUser);
+router.get('/me', isUserAuthorized, getUserChannel);
 
-router.get('/dudeperfect', getDudePerfectChannel);
+router.get('/dudeperfect', isUserAuthorized, getDudePerfectChannel);
 
-router.get('/search', searchVideo);
+router.get('/search', isUserAuthorized, searchVideo);
 
 
 module.exports = router;
