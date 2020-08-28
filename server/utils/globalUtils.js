@@ -4,6 +4,8 @@ const {
   TOKEN_PATH,
   setToken
 } = require('../config/constants');
+const moment = require('moment');
+
 
 module.exports = {
 
@@ -24,6 +26,22 @@ module.exports = {
         }
       });
     });
+  },
+
+  deleteCredentialsIfExpired: (token) => {
+    const expiryDate = moment(token.expiry_date);
+    const currentDate = moment();
+    let duration = moment.duration(currentDate.diff(expiryDate));
+    if(duration.asHours() > 0) {
+      try {
+        fs.unlinkSync(TOKEN_PATH);
+        console.log('Token Deleted'.red);
+      } catch(err) {
+        console.log(`${err}`.red);
+      }
+    } else {
+      console.log('Token Not Expired'.green);
+    }
   },
   
   writeCredentialsToFile: async (token) => {

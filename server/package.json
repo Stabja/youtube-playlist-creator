@@ -20,6 +20,7 @@
     "googleapis": "^59.0.0",
     "http-errors": "^1.8.0",
     "jade": "^1.11.0",
+    "moment": "^2.27.0",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.4",
     "open": "^7.1.0",

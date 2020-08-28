@@ -1,16 +1,11 @@
-const fs = require('fs');
 const open = require('open');
-const readline = require('readline');
 const colors = require('colors');
-const {
-  SCOPES
-} = require('../config/constants');
+const { SCOPES } = require('../config/constants');
 
 
 module.exports = {
 
   setRefreshTokenListener: (oauth2Client) => {
-    console.log('Refresh Token Listener set.'.inverse);
     oauth2Client.on('tokens', (tokens) => {
       if (tokens.refresh_token) {
         console.log(`Token Refreshed: ${tokens.refresh_token}`.inverse);
@@ -28,8 +23,8 @@ module.exports = {
       console.log(colors.green(authUrl));
       let authCode;
       try {
-        authCode = await open(authUrl, { wait: true });
-        console.log(colors.blue({ authCode }));
+        authCode = await open(authUrl);
+        console.log(`Promise Resdolved ${authCode}`.green);
         resolve(authCode);
       } catch(err) {
         reject(err);
