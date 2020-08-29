@@ -1,4 +1,4 @@
-# youtube-playlist-creator
+# Youtube Playlist Creator
 Example Project using Youtube Data API.
 
 ## Features
