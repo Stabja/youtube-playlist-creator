@@ -20,14 +20,13 @@ const checkIfTokenExistInFile = async () => {
   try {
     const token = await readCredentialsFromFile();
     deleteCredentialsIfExpired(token);
-    console.log(`${JSON.stringify(token)}`.blue);
   } catch(err) {
     console.log(`${err}`.red );
   }
 };
 
-
 checkIfTokenExistInFile();
+
 const app = express();
 
 // view engine setup
