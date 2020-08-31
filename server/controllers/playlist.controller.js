@@ -6,7 +6,7 @@ const {
   createPlaylist,
   searchVideo,
   insertPlaylistItem
-} = require('./playlistHelper');
+} = require('../helpers/playlistHelper');
 
 
 
@@ -112,7 +112,7 @@ exports.createPlaylistFromTracksFile = async (req, res) => {
     return res.status(getErrorCode(err)).json(err);
   }
   console.log(`Playlist ${playlistId} Created.`.green);
-  //Create VideoIdsList and search for the tracks
+  // Create VideoIdsList and search for the tracks
   let videoIdsList = [];
   await Promise.all(tracksList.map(async (track, i) => {
     let videoId;
@@ -124,14 +124,13 @@ exports.createPlaylistFromTracksFile = async (req, res) => {
       );
     } catch(err) {
       console.log(`${track} ${err}`.red);
-
       return res.status(getErrorCode(err)).json(err);
     }
     videoIdsList.push(videoId);
     console.log(`Track_${i}: ${videoId} Searched.`.cyan);
   }));
   console.log('Search Completed'.green);
-  //Iterate `VideoIdsList` & Insert the tracks in the playlist
+  // Iterate `VideoIdsList` & Insert the tracks in the playlist
   let numTracks = 0;
   for(const video of videoIdsList) {
     let trackTitle;

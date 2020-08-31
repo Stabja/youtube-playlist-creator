@@ -3,7 +3,6 @@ const path = require('path');
 let TOKEN_DIR = path.join(__dirname, '../.credentials/');
 let OAUTH2_TOKEN = null;
 let CREDENTIALS = null;
-
 //console.log(colors.blue({ TOKEN_DIR }));
 
 
@@ -69,7 +68,7 @@ const credentials_5 = {
 
 
 module.exports = {
-  credentials: credentials_3,
+  credentials: credentials_2,
   SCOPES: [
     'https://www.googleapis.com/auth/youtube.readonly',
     'https://www.googleapis.com/auth/youtube.force-ssl',
