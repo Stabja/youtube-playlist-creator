@@ -1,5 +1,4 @@
 const open = require('open');
-const colors = require('colors');
 const { SCOPES } = require('../config/constants');
 
 
@@ -7,7 +6,7 @@ const { SCOPES } = require('../config/constants');
 exports.setRefreshTokenListener = (oauth2Client) => {
   oauth2Client.on('tokens', (tokens) => {
     if (tokens.refresh_token) {
-      console.log(`Token Refreshed: ${tokens.refresh_token}`.inverse);
+      //console.log(`Token Refreshed: ${tokens.refresh_token}`.inverse);
     }
     console.log(`Token Refreshed: ${tokens.access_token}`.inverse);
   });
@@ -24,7 +23,6 @@ exports.generateAuthUrl = (oauth2Client) => {
     let authCode;
     try {
       authCode = await open(authUrl);
-      console.log(`Promise Resdolved ${authCode}`.green);
       resolve(authCode);
     } catch(err) {
       reject(err);

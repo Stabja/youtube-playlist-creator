@@ -3,7 +3,7 @@ import React from 'react';
 const QuickPanel = () => {
   return (
     <div id="kt_quick_panel" className="kt-quick-panel">
-      <a href="#" className="kt-quick-panel__close" id="kt_quick_panel_close_btn">
+      <a href="/#" className="kt-quick-panel__close" id="kt_quick_panel_close_btn">
         <i className="flaticon2-delete"></i>
       </a>
       <div className="kt-quick-panel__nav">
@@ -15,7 +15,7 @@ const QuickPanel = () => {
             <a
               className="nav-link active"
               data-toggle="tab"
-              href="#kt_quick_panel_tab_notifications"
+              href="/#"
               role="tab"
             >
               Notifications
@@ -25,7 +25,7 @@ const QuickPanel = () => {
             <a
               className="nav-link"
               data-toggle="tab"
-              href="#kt_quick_panel_tab_logs"
+              href="/#"
               role="tab"
             >
               Audit Logs
@@ -35,7 +35,7 @@ const QuickPanel = () => {
             <a
               className="nav-link"
               data-toggle="tab"
-              href="#kt_quick_panel_tab_settings"
+              href="/#"
               role="tab"
             >
               Settings
@@ -51,7 +51,7 @@ const QuickPanel = () => {
             role="tabpanel"
           >
             <div className="kt-notification">
-              <a href="#" className="kt-notification__item">
+              <a href="/#" className="kt-notification__item">
                 <div className="kt-notification__item-icon">
                   <i className="flaticon2-line-chart kt-font-success"></i>
                 </div>
@@ -62,7 +62,7 @@ const QuickPanel = () => {
                   <div className="kt-notification__item-time">2 hrs ago</div>
                 </div>
               </a>
-              <a href="#" className="kt-notification__item">
+              <a href="/#" className="kt-notification__item">
                 <div className="kt-notification__item-icon">
                   <i className="flaticon2-box-1 kt-font-brand"></i>
                 </div>
@@ -73,7 +73,7 @@ const QuickPanel = () => {
                   <div className="kt-notification__item-time">3 hrs ago</div>
                 </div>
               </a>
-              <a href="#" className="kt-notification__item">
+              <a href="/#" className="kt-notification__item">
                 <div className="kt-notification__item-icon">
                   <i className="flaticon2-chart2 kt-font-danger"></i>
                 </div>
@@ -84,7 +84,7 @@ const QuickPanel = () => {
                   <div className="kt-notification__item-time">3 hrs ago</div>
                 </div>
               </a>
-              <a href="#" className="kt-notification__item">
+              <a href="/#" className="kt-notification__item">
                 <div className="kt-notification__item-icon">
                   <i className="flaticon2-image-file kt-font-warning"></i>
                 </div>
@@ -95,7 +95,7 @@ const QuickPanel = () => {
                   <div className="kt-notification__item-time">5 hrs ago</div>
                 </div>
               </a>
-              <a href="#" className="kt-notification__item">
+              <a href="/#" className="kt-notification__item">
                 <div className="kt-notification__item-icon">
                   <i className="flaticon2-drop kt-font-info"></i>
                 </div>
@@ -106,7 +106,7 @@ const QuickPanel = () => {
                   <div className="kt-notification__item-time">8 hrs ago</div>
                 </div>
               </a>
-              <a href="#" className="kt-notification__item">
+              <a href="/#" className="kt-notification__item">
                 <div className="kt-notification__item-icon">
                   <i className="flaticon2-pie-chart-2 kt-font-success"></i>
                 </div>
@@ -117,7 +117,7 @@ const QuickPanel = () => {
                   <div className="kt-notification__item-time">12 hrs ago</div>
                 </div>
               </a>
-              <a href="#" className="kt-notification__item">
+              <a href="/#" className="kt-notification__item">
                 <div className="kt-notification__item-icon">
                   <i className="flaticon2-favourite kt-font-danger"></i>
                 </div>
@@ -129,7 +129,7 @@ const QuickPanel = () => {
                 </div>
               </a>
               <a
-                href="#"
+                href="/#"
                 className="kt-notification__item kt-notification__item--read"
               >
                 <div className="kt-notification__item-icon">
@@ -142,7 +142,7 @@ const QuickPanel = () => {
                   <div className="kt-notification__item-time">19 hrs ago</div>
                 </div>
               </a>
-              <a href="#" className="kt-notification__item">
+              <a href="/#" className="kt-notification__item">
                 <div className="kt-notification__item-icon">
                   <i className="flaticon2-psd kt-font-success"></i>
                 </div>
@@ -153,7 +153,7 @@ const QuickPanel = () => {
                   <div className="kt-notification__item-time">23 hrs ago</div>
                 </div>
               </a>
-              <a href="#" className="kt-notification__item">
+              <a href="/#" className="kt-notification__item">
                 <div className="kt-notification__item-icon">
                   <i className="flaticon-download-1 kt-font-danger"></i>
                 </div>
@@ -164,7 +164,7 @@ const QuickPanel = () => {
                   <div className="kt-notification__item-time">25 hrs ago</div>
                 </div>
               </a>
-              <a href="#" className="kt-notification__item">
+              <a href="/#" className="kt-notification__item">
                 <div className="kt-notification__item-icon">
                   <i className="flaticon-security kt-font-warning"></i>
                 </div>
@@ -175,7 +175,7 @@ const QuickPanel = () => {
                   <div className="kt-notification__item-time">2 days ago</div>
                 </div>
               </a>
-              <a href="#" className="kt-notification__item">
+              <a href="/#" className="kt-notification__item">
                 <div className="kt-notification__item-icon">
                   <i className="flaticon2-pie-chart kt-font-warning"></i>
                 </div>
@@ -194,7 +194,7 @@ const QuickPanel = () => {
             role="tabpanel"
           >
             <div className="kt-notification-v2">
-              <a href="#" className="kt-notification-v2__item">
+              <a href="/#" className="kt-notification-v2__item">
                 <div className="kt-notification-v2__item-icon">
                   <i className="flaticon-bell kt-font-brand"></i>
                 </div>
@@ -207,7 +207,7 @@ const QuickPanel = () => {
                   </div>
                 </div>
               </a>
-              <a href="#" className="kt-notification-v2__item">
+              <a href="/#" className="kt-notification-v2__item">
                 <div className="kt-notification-v2__item-icon">
                   <i className="flaticon2-box kt-font-danger"></i>
                 </div>
@@ -218,7 +218,7 @@ const QuickPanel = () => {
                   <div className="kt-notification-v2__item-desc">by Grog John</div>
                 </div>
               </a>
-              <a href="#" className="kt-notification-v2__item">
+              <a href="/#" className="kt-notification-v2__item">
                 <div className="kt-notification-v2__item-icon">
                   <i className="flaticon-psd kt-font-brand"></i>
                 </div>
@@ -231,7 +231,7 @@ const QuickPanel = () => {
                   </div>
                 </div>
               </a>
-              <a href="#" className="kt-notification-v2__item">
+              <a href="/#" className="kt-notification-v2__item">
                 <div className="kt-notification-v2__item-icon">
                   <i className="flaticon2-supermarket kt-font-warning"></i>
                 </div>
@@ -244,7 +244,7 @@ const QuickPanel = () => {
                   </div>
                 </div>
               </a>
-              <a href="#" className="kt-notification-v2__item">
+              <a href="/#" className="kt-notification-v2__item">
                 <div className="kt-notification-v2__item-icon">
                   <i className="flaticon-paper-plane-1 kt-font-success"></i>
                 </div>
@@ -257,7 +257,7 @@ const QuickPanel = () => {
                   </div>
                 </div>
               </a>
-              <a href="#" className="kt-notification-v2__item">
+              <a href="/#" className="kt-notification-v2__item">
                 <div className="kt-notification-v2__item-icon">
                   <i className="flaticon2-information kt-font-danger"></i>
                 </div>
@@ -268,7 +268,7 @@ const QuickPanel = () => {
                   <div className="kt-notification-v2__item-desc">10 mins ago</div>
                 </div>
               </a>
-              <a href="#" className="kt-notification-v2__item">
+              <a href="/#" className="kt-notification-v2__item">
                 <div className="kt-notification-v2__item-icon">
                   <i className="flaticon2-mail-1 kt-font-brand"></i>
                 </div>
@@ -281,7 +281,7 @@ const QuickPanel = () => {
                   </div>
                 </div>
               </a>
-              <a href="#" className="kt-notification-v2__item">
+              <a href="/#" className="kt-notification-v2__item">
                 <div className="kt-notification-v2__item-icon">
                   <i className="flaticon2-hangouts-logo kt-font-warning"></i>
                 </div>

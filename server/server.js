@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const createError = require('http-errors');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+const cors = require('cors');
 
 // Import the routes
 let channelRouter = require('./routes/channel.route');
@@ -33,6 +34,7 @@ const app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
+app.use(cors());
 app.use(bodyParser.json());
 app.use(logger('dev'));
 app.use(express.json());

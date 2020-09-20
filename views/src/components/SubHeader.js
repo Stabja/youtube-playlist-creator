@@ -16,23 +16,23 @@ const SubHeader = () => {
           </h3>
           <span className="kt-subheader__separator kt-hidden"></span>
           <div className="kt-subheader__breadcrumbs">
-            <a href="#" className="kt-subheader__breadcrumbs-home">
+            <a href="/#" className="kt-subheader__breadcrumbs-home">
               <i className="flaticon2-shelter"></i>
             </a>
             <span className="kt-subheader__breadcrumbs-separator"></span>
-            <a href="#" className="kt-subheader__breadcrumbs-link">
+            <a href="/#" className="kt-subheader__breadcrumbs-link">
               Apps{' '}
             </a>
             <span className="kt-subheader__breadcrumbs-separator"></span>
-            <a href="#" className="kt-subheader__breadcrumbs-link">
+            <a href="/#" className="kt-subheader__breadcrumbs-link">
               Users{' '}
             </a>
             <span className="kt-subheader__breadcrumbs-separator"></span>
-            <a href="#" className="kt-subheader__breadcrumbs-link">
+            <a href="/#" className="kt-subheader__breadcrumbs-link">
               Profile 1{' '}
             </a>
             <span className="kt-subheader__breadcrumbs-separator"></span>
-            <a href="#" className="kt-subheader__breadcrumbs-link">
+            <a href="/#" className="kt-subheader__breadcrumbs-link">
               Personal Information{' '}
             </a>
             {/* <!-- <span className="kt-subheader__breadcrumbs-link kt-subheader__breadcrumbs-link--active">Active link</span> --> */}
@@ -40,7 +40,7 @@ const SubHeader = () => {
         </div>
         <div className="kt-subheader__toolbar">
           <div className="kt-subheader__wrapper">
-            <a href="#" className="btn kt-subheader__btn-primary">
+            <a href="/#" className="btn kt-subheader__btn-primary">
               Actions &nbsp;
               {/* <!--<i className="flaticon2-calendar-1"></i>--> */}
             </a>
@@ -51,7 +51,7 @@ const SubHeader = () => {
               data-placement="left"
             >
               <a
-                href="#"
+                href="/#"
                 className="btn btn-icon"
                 data-toggle="dropdown"
                 aria-haspopup="true"
@@ -68,15 +68,15 @@ const SubHeader = () => {
                 >
                   <g
                     stroke="none"
-                    stroke-width="1"
+                    strokeWidth="1"
                     fill="none"
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                   >
                     <polygon points="0 0 24 0 24 24 0 24" />
                     <path
                       d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z"
                       fill="#000000"
-                      fill-rule="nonzero"
+                      fillRule="nonzero"
                       opacity="0.3"
                     />
                     <path
@@ -101,25 +101,25 @@ const SubHeader = () => {
                   </li>
                   <li className="kt-nav__separator"></li>
                   <li className="kt-nav__item">
-                    <a href="#" className="kt-nav__link">
+                    <a href="/#" className="kt-nav__link">
                       <i className="kt-nav__link-icon flaticon2-drop"></i>
                       <span className="kt-nav__link-text">Order</span>
                     </a>
                   </li>
                   <li className="kt-nav__item">
-                    <a href="#" className="kt-nav__link">
+                    <a href="/#" className="kt-nav__link">
                       <i className="kt-nav__link-icon flaticon2-calendar-8"></i>
                       <span className="kt-nav__link-text">Ticket</span>
                     </a>
                   </li>
                   <li className="kt-nav__item">
-                    <a href="#" className="kt-nav__link">
+                    <a href="/#" className="kt-nav__link">
                       <i className="kt-nav__link-icon flaticon2-telegram-logo"></i>
                       <span className="kt-nav__link-text">Goal</span>
                     </a>
                   </li>
                   <li className="kt-nav__item">
-                    <a href="#" className="kt-nav__link">
+                    <a href="/#" className="kt-nav__link">
                       <i className="kt-nav__link-icon flaticon2-new-email"></i>
                       <span className="kt-nav__link-text">Support Case</span>
                       <span className="kt-nav__link-badge">
@@ -129,12 +129,12 @@ const SubHeader = () => {
                   </li>
                   <li className="kt-nav__separator"></li>
                   <li className="kt-nav__foot">
-                    <a className="btn btn-label-brand btn-bold btn-sm" href="#">
+                    <a className="btn btn-label-brand btn-bold btn-sm" href="/#">
                       Upgrade plan
                     </a>
                     <a
                       className="btn btn-clean btn-bold btn-sm"
-                      href="#"
+                      href="/#"
                       data-toggle="kt-tooltip"
                       data-placement="right"
                       title="Click to learn more..."

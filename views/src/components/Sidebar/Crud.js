@@ -12,7 +12,7 @@ const Crud = () => {
         aria-haspopup="true"
         data-ktmenu-submenu-toggle="hover"
       >
-        <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+        <a href="#" className="kt-menu__link kt-menu__toggle">
           <span className="kt-menu__link-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ const Crud = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <path
                   d="M3,16 L5,16 C5.55228475,16 6,15.5522847 6,15 C6,14.4477153 5.55228475,14 5,14 L3,14 L3,12 L5,12 C5.55228475,12 6,11.5522847 6,11 C6,10.4477153 5.55228475,10 5,10 L3,10 L3,8 L5,8 C5.55228475,8 6,7.55228475 6,7 C6,6.44771525 5.55228475,6 5,6 L3,6 L3,4 C3,3.44771525 3.44771525,3 4,3 L10,3 C10.5522847,3 11,3.44771525 11,4 L11,19 C11,19.5522847 10.5522847,20 10,20 L4,20 C3.44771525,20 3,19.5522847 3,19 L3,16 Z"
@@ -56,7 +56,7 @@ const Crud = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="#" className="kt-menu__link kt-menu__toggle">
                 <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                   <span></span>
                 </i>
@@ -140,7 +140,7 @@ const Crud = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="#" className="kt-menu__link kt-menu__toggle">
                 <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                   <span></span>
                 </i>
@@ -377,7 +377,7 @@ const Crud = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="#" className="kt-menu__link kt-menu__toggle">
                 <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                   <span></span>
                 </i>
@@ -404,7 +404,7 @@ const Crud = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -531,7 +531,7 @@ const Crud = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="#" className="kt-menu__link kt-menu__toggle">
                 <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                   <span></span>
                 </i>
@@ -599,7 +599,7 @@ const Crud = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="#" className="kt-menu__link kt-menu__toggle">
                 <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                   <span></span>
                 </i>
@@ -655,7 +655,7 @@ const Crud = () => {
         aria-haspopup="true"
         data-ktmenu-submenu-toggle="hover"
       >
-        <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+        <a href="#" className="kt-menu__link kt-menu__toggle">
           <span className="kt-menu__link-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -666,7 +666,7 @@ const Crud = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <path
                   d="M10,4 L21,4 C21.5522847,4 22,4.44771525 22,5 L22,7 C22,7.55228475 21.5522847,8 21,8 L10,8 C9.44771525,8 9,7.55228475 9,7 L9,5 C9,4.44771525 9.44771525,4 10,4 Z M10,10 L21,10 C21.5522847,10 22,10.4477153 22,11 L22,13 C22,13.5522847 21.5522847,14 21,14 L10,14 C9.44771525,14 9,13.5522847 9,13 L9,11 C9,10.4477153 9.44771525,10 10,10 Z M10,16 L21,16 C21.5522847,16 22,16.4477153 22,17 L22,19 C22,19.5522847 21.5522847,20 21,20 L10,20 C9.44771525,20 9,19.5522847 9,19 L9,17 C9,16.4477153 9.44771525,16 10,16 Z"
@@ -703,7 +703,7 @@ const Crud = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="#" className="kt-menu__link kt-menu__toggle">
                 <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                   <span></span>
                 </i>
@@ -787,7 +787,7 @@ const Crud = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="#" className="kt-menu__link kt-menu__toggle">
                 <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                   <span></span>
                 </i>
@@ -890,7 +890,7 @@ const Crud = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="#" className="kt-menu__link kt-menu__toggle">
                 <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                   <span></span>
                 </i>
@@ -930,7 +930,7 @@ const Crud = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="#" className="kt-menu__link kt-menu__toggle">
                 <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                   <span></span>
                 </i>
@@ -973,7 +973,7 @@ const Crud = () => {
         aria-haspopup="true"
         data-ktmenu-submenu-toggle="hover"
       >
-        <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+        <a href="#" className="kt-menu__link kt-menu__toggle">
           <span className="kt-menu__link-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -984,7 +984,7 @@ const Crud = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <rect
                   fill="#000000"
@@ -1025,7 +1025,7 @@ const Crud = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="#" className="kt-menu__link kt-menu__toggle">
                 <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                   <span></span>
                 </i>
@@ -1093,7 +1093,7 @@ const Crud = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="#" className="kt-menu__link kt-menu__toggle">
                 <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                   <span></span>
                 </i>
@@ -1185,7 +1185,7 @@ const Crud = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="#" className="kt-menu__link kt-menu__toggle">
                 <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                   <span></span>
                 </i>
@@ -1251,7 +1251,7 @@ const Crud = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="#" className="kt-menu__link kt-menu__toggle">
                 <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                   <span></span>
                 </i>
@@ -1293,7 +1293,7 @@ const Crud = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="#" className="kt-menu__link kt-menu__toggle">
                 <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                   <span></span>
                 </i>
@@ -1402,7 +1402,7 @@ const Crud = () => {
         aria-haspopup="true"
         data-ktmenu-submenu-toggle="hover"
       >
-        <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+        <a href="#" className="kt-menu__link kt-menu__toggle">
           <span className="kt-menu__link-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -1413,12 +1413,12 @@ const Crud = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <path
                   d="M2,13 C2,12.5 2.5,12 3,12 C3.5,12 4,12.5 4,13 C4,13.3333333 4,15 4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 C2,15 2,13.3333333 2,13 Z"
                   fill="#000000"
-                  fill-rule="nonzero"
+                  fillRule="nonzero"
                   opacity="0.3"
                 />
                 <rect
@@ -1433,7 +1433,7 @@ const Crud = () => {
                 <path
                   d="M12.0362375,3.37797611 L7.70710678,7.70710678 C7.31658249,8.09763107 6.68341751,8.09763107 6.29289322,7.70710678 C5.90236893,7.31658249 5.90236893,6.68341751 6.29289322,6.29289322 L11.2928932,1.29289322 C11.6689749,0.916811528 12.2736364,0.900910387 12.6689647,1.25670585 L17.6689647,5.75670585 C18.0794748,6.12616487 18.1127532,6.75845471 17.7432941,7.16896473 C17.3738351,7.57947475 16.7415453,7.61275317 16.3310353,7.24329415 L12.0362375,3.37797611 Z"
                   fill="#000000"
-                  fill-rule="nonzero"
+                  fillRule="nonzero"
                 />
               </g>
             </svg>

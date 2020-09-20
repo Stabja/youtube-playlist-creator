@@ -1,4 +1,7 @@
+// eslint-disable-next-line
+// eslint-disable-jsx-a11y/anchor-is-valid
 import React from 'react';
+
 
 const DemoPanel = () => {
   return (
@@ -6,9 +9,8 @@ const DemoPanel = () => {
       <div className="kt-demo-panel__head">
         <h3 className="kt-demo-panel__title">
           Select A Demo
-          {/* <!--<small>5</small>--> */}
         </h3>
-        <a href="#" className="kt-demo-panel__close" id="kt_demo_panel_close">
+        <a href="/#" className="kt-demo-panel__close" id="kt_demo_panel_close">
           <i className="flaticon2-delete"></i>
         </a>
       </div>
@@ -16,10 +18,7 @@ const DemoPanel = () => {
         <div className="kt-demo-panel__item kt-demo-panel__item--active">
           <div className="kt-demo-panel__item-title">Demo 1</div>
           <div className="kt-demo-panel__item-preview">
-            <img
-              src="assets/media/demos/preview/demo1.jpg"
-              alt=""
-            />
+            <img src="assets/media/demos/preview/demo1.jpg" alt="img"/>
             <div className="kt-demo-panel__item-preview-overlay">
               <a
                 href="personal-information.html"
@@ -29,7 +28,7 @@ const DemoPanel = () => {
                 Default
               </a>
               <a
-                href="user/profile-1/personal-information.html"
+                href="personal-information.html"
                 className="btn btn-light btn-elevate"
                 target="_blank"
               >
@@ -91,10 +90,7 @@ const DemoPanel = () => {
         <div className="kt-demo-panel__item ">
           <div className="kt-demo-panel__item-title">Demo 4</div>
           <div className="kt-demo-panel__item-preview">
-            <img
-              src="assets/media/demos/preview/demo4.jpg"
-              alt=""
-            />
+            <img src="assets/media/demos/preview/demo4.jpg" alt="img"/>
             <div className="kt-demo-panel__item-preview-overlay">
               <a
                 href="https://keenthemes.com/metronic/preview/demo4/custom/apps/user/profile-1/personal-information.html"
@@ -116,10 +112,7 @@ const DemoPanel = () => {
         <div className="kt-demo-panel__item ">
           <div className="kt-demo-panel__item-title">Demo 5</div>
           <div className="kt-demo-panel__item-preview">
-            <img
-              src="assets/media/demos/preview/demo5.jpg"
-              alt=""
-            />
+            <img src="assets/media/demos/preview/demo5.jpg" alt="img"/>
             <div className="kt-demo-panel__item-preview-overlay">
               <a
                 href="https://keenthemes.com/metronic/preview/demo5/custom/apps/user/profile-1/personal-information.html"
@@ -143,7 +136,7 @@ const DemoPanel = () => {
           <div className="kt-demo-panel__item-preview">
             <img
               src="assets/media/demos/preview/demo6.jpg"
-              alt=""
+              alt="img"
             />
             <div className="kt-demo-panel__item-preview-overlay">
               <a
@@ -321,7 +314,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -335,7 +328,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -349,7 +342,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -363,7 +356,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -377,7 +370,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -391,7 +384,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -405,7 +398,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -419,7 +412,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -433,7 +426,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -447,7 +440,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -461,7 +454,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -475,7 +468,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -489,7 +482,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -503,7 +496,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -517,7 +510,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -531,7 +524,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -545,7 +538,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>
@@ -559,7 +552,7 @@ const DemoPanel = () => {
               alt=""
             />
             <div className="kt-demo-panel__item-preview-overlay">
-              <a href="#" className="btn btn-brand btn-elevate disabled">
+              <a href="/#" className="btn btn-brand btn-elevate disabled">
                 Coming soon
               </a>
             </div>

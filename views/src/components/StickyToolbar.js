@@ -1,4 +1,6 @@
+// eslint-disable-next-line
 import React from 'react';
+
 
 const StickyToolbar = () => {
   return (
@@ -10,7 +12,7 @@ const StickyToolbar = () => {
         title="Check out more demos"
         data-placement="right"
       >
-        <a href="#" className="">
+        <a href="/#" className="">
           <i className="flaticon2-drop"></i>
         </a>
       </li>
@@ -20,7 +22,7 @@ const StickyToolbar = () => {
         title="Layout Builder"
         data-placement="left"
       >
-        <a href="builder.html">
+        <a href="/builder.html">
           <i className="flaticon2-gear"></i>
         </a>
       </li>
@@ -30,7 +32,7 @@ const StickyToolbar = () => {
         title="Documentation"
         data-placement="left"
       >
-        <a href="https://keenthemes.com/metronic/?page=docs" target="_blank">
+        <a href="/https://keenthemes.com/metronic/?page=docs" target="_blank">
           <i className="flaticon2-telegram-logo"></i>
         </a>
       </li>
@@ -41,7 +43,7 @@ const StickyToolbar = () => {
         title="Chat Example"
         data-placement="left"
       >
-        <a href="#" data-toggle="modal" data-target="#kt_chat_modal">
+        <a href="/#" data-toggle="modal" data-target="#kt_chat_modal">
           <i className="flaticon2-chat-1"></i>
         </a>
       </li>

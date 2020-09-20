@@ -12,7 +12,7 @@ const Components = () => {
         aria-haspopup="true"
         data-ktmenu-submenu-toggle="hover"
       >
-        <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+        <a href="#" className="kt-menu__link kt-menu__toggle">
           <span className="kt-menu__link-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ const Components = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <path
                   d="M4,9.67471899 L10.880262,13.6470401 C10.9543486,13.689814 11.0320333,13.7207107 11.1111111,13.740321 L11.1111111,21.4444444 L4.49070127,17.526473 C4.18655139,17.3464765 4,17.0193034 4,16.6658832 L4,9.67471899 Z M20,9.56911707 L20,16.6658832 C20,17.0193034 19.8134486,17.3464765 19.5092987,17.526473 L12.8888889,21.4444444 L12.8888889,13.6728275 C12.9050191,13.6647696 12.9210067,13.6561758 12.9368301,13.6470401 L20,9.56911707 Z"
@@ -192,7 +192,7 @@ const Components = () => {
         aria-haspopup="true"
         data-ktmenu-submenu-toggle="hover"
       >
-        <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+        <a href="#" className="kt-menu__link kt-menu__toggle">
           <span className="kt-menu__link-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -203,7 +203,7 @@ const Components = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <path
                   d="M3.5,21 L20.5,21 C21.3284271,21 22,20.3284271 22,19.5 L22,8.5 C22,7.67157288 21.3284271,7 20.5,7 L10,7 L7.43933983,4.43933983 C7.15803526,4.15803526 6.77650439,4 6.37867966,4 L3.5,4 C2.67157288,4 2,4.67157288 2,5.5 L2,19.5 C2,20.3284271 2.67157288,21 3.5,21 Z"
@@ -374,7 +374,7 @@ const Components = () => {
         aria-haspopup="true"
         data-ktmenu-submenu-toggle="hover"
       >
-        <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+        <a href="#" className="kt-menu__link kt-menu__toggle">
           <span className="kt-menu__link-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -385,12 +385,12 @@ const Components = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <path
                   d="M13,17.0484323 L13,18 L14,18 C15.1045695,18 16,18.8954305 16,20 L8,20 C8,18.8954305 8.8954305,18 10,18 L11,18 L11,17.0482312 C6.89844817,16.5925472 3.58685702,13.3691811 3.07555009,9.22038742 C3.00799634,8.67224972 3.3975866,8.17313318 3.94572429,8.10557943 C4.49386199,8.03802567 4.99297853,8.42761593 5.06053229,8.97575363 C5.4896663,12.4577884 8.46049164,15.1035129 12.0008191,15.1035129 C15.577644,15.1035129 18.5681939,12.4043008 18.9524872,8.87772126 C19.0123158,8.32868667 19.505897,7.93210686 20.0549316,7.99193546 C20.6039661,8.05176407 21.000546,8.54534521 20.9407173,9.09437981 C20.4824216,13.3000638 17.1471597,16.5885839 13,17.0484323 Z"
                   fill="#000000"
-                  fill-rule="nonzero"
+                  fillRule="nonzero"
                 />
                 <path
                   d="M12,14 C8.6862915,14 6,11.3137085 6,8 C6,4.6862915 8.6862915,2 12,2 C15.3137085,2 18,4.6862915 18,8 C18,11.3137085 15.3137085,14 12,14 Z M8.81595773,7.80077353 C8.79067542,7.43921955 8.47708263,7.16661749 8.11552864,7.19189981 C7.75397465,7.21718213 7.4813726,7.53077492 7.50665492,7.89232891 C7.62279197,9.55316612 8.39667037,10.8635466 9.79502238,11.7671393 C10.099435,11.9638458 10.5056723,11.8765328 10.7023788,11.5721203 C10.8990854,11.2677077 10.8117724,10.8614704 10.5073598,10.6647638 C9.4559885,9.98538454 8.90327706,9.04949813 8.81595773,7.80077353 Z"
@@ -532,7 +532,7 @@ const Components = () => {
         aria-haspopup="true"
         data-ktmenu-submenu-toggle="hover"
       >
-        <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+        <a href="#" className="kt-menu__link kt-menu__toggle">
           <span className="kt-menu__link-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -543,7 +543,7 @@ const Components = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <path
                   d="M11.7573593,15.2426407 L8.75735931,15.2426407 C8.20507456,15.2426407 7.75735931,15.6903559 7.75735931,16.2426407 C7.75735931,16.7949254 8.20507456,17.2426407 8.75735931,17.2426407 L11.7573593,17.2426407 L11.7573593,18.2426407 C11.7573593,19.3472102 10.8619288,20.2426407 9.75735931,20.2426407 L5.75735931,20.2426407 C4.65278981,20.2426407 3.75735931,19.3472102 3.75735931,18.2426407 L3.75735931,14.2426407 C3.75735931,13.1380712 4.65278981,12.2426407 5.75735931,12.2426407 L9.75735931,12.2426407 C10.8619288,12.2426407 11.7573593,13.1380712 11.7573593,14.2426407 L11.7573593,15.2426407 Z"
@@ -637,7 +637,7 @@ const Components = () => {
         aria-haspopup="true"
         data-ktmenu-submenu-toggle="hover"
       >
-        <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+        <a href="#" className="kt-menu__link kt-menu__toggle">
           <span className="kt-menu__link-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -648,7 +648,7 @@ const Components = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <path
                   d="M5.5,4 L9.5,4 C10.3284271,4 11,4.67157288 11,5.5 L11,6.5 C11,7.32842712 10.3284271,8 9.5,8 L5.5,8 C4.67157288,8 4,7.32842712 4,6.5 L4,5.5 C4,4.67157288 4.67157288,4 5.5,4 Z M14.5,16 L18.5,16 C19.3284271,16 20,16.6715729 20,17.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,17.5 C13,16.6715729 13.6715729,16 14.5,16 Z"
@@ -750,7 +750,7 @@ const Components = () => {
         aria-haspopup="true"
         data-ktmenu-submenu-toggle="hover"
       >
-        <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+        <a href="#" className="kt-menu__link kt-menu__toggle">
           <span className="kt-menu__link-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -761,7 +761,7 @@ const Components = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <rect
                   fill="#000000"
@@ -775,7 +775,7 @@ const Components = () => {
                 <path
                   d="M9.9486833,13.3162278 C9.81256925,13.7245699 9.43043041,14 9,14 L5,14 C4.44771525,14 4,13.5522847 4,13 C4,12.4477153 4.44771525,12 5,12 L8.27924078,12 L10.0513167,6.68377223 C10.367686,5.73466443 11.7274983,5.78688777 11.9701425,6.75746437 L13.8145063,14.1349195 L14.6055728,12.5527864 C14.7749648,12.2140024 15.1212279,12 15.5,12 L19,12 C19.5522847,12 20,12.4477153 20,13 C20,13.5522847 19.5522847,14 19,14 L16.118034,14 L14.3944272,17.4472136 C13.9792313,18.2776054 12.7550291,18.143222 12.5298575,17.2425356 L10.8627389,10.5740611 L9.9486833,13.3162278 Z"
                   fill="#000000"
-                  fill-rule="nonzero"
+                  fillRule="nonzero"
                 />
                 <circle fill="#000000" opacity="0.3" cx="19" cy="6" r="1" />
               </g>
@@ -836,7 +836,7 @@ const Components = () => {
         aria-haspopup="true"
         data-ktmenu-submenu-toggle="hover"
       >
-        <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+        <a href="#" className="kt-menu__link kt-menu__toggle">
           <span className="kt-menu__link-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -847,7 +847,7 @@ const Components = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
                 <polygon points="0 0 24 0 24 24 0 24" />
                 <path
                   d="M18.5,8 C17.1192881,8 16,6.88071187 16,5.5 C16,4.11928813 17.1192881,3 18.5,3 C19.8807119,3 21,4.11928813 21,5.5 C21,6.88071187 19.8807119,8 18.5,8 Z M18.5,21 C17.1192881,21 16,19.8807119 16,18.5 C16,17.1192881 17.1192881,16 18.5,16 C19.8807119,16 21,17.1192881 21,18.5 C21,19.8807119 19.8807119,21 18.5,21 Z M5.5,21 C4.11928813,21 3,19.8807119 3,18.5 C3,17.1192881 4.11928813,16 5.5,16 C6.88071187,16 8,17.1192881 8,18.5 C8,19.8807119 6.88071187,21 5.5,21 Z"
@@ -938,7 +938,7 @@ const Components = () => {
         aria-haspopup="true"
         data-ktmenu-submenu-toggle="hover"
       >
-        <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+        <a href="#" className="kt-menu__link kt-menu__toggle">
           <span className="kt-menu__link-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -949,7 +949,7 @@ const Components = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <rect
                   fill="#000000"
@@ -1006,7 +1006,7 @@ const Components = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="#" className="kt-menu__link kt-menu__toggle">
                 <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                   <span></span>
                 </i>
@@ -1097,7 +1097,7 @@ const Components = () => {
         aria-haspopup="true"
         data-ktmenu-submenu-toggle="hover"
       >
-        <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+        <a href="#" className="kt-menu__link kt-menu__toggle">
           <span className="kt-menu__link-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -1108,7 +1108,7 @@ const Components = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <path
                   d="M13.6855025,18.7082217 C15.9113859,17.8189707 18.682885,17.2495635 22,17 C22,16.9325178 22,13.1012863 22,5.50630526 L21.9999762,5.50630526 C21.9999762,5.23017604 21.7761292,5.00632908 21.5,5.00632908 C21.4957817,5.00632908 21.4915635,5.00638247 21.4873465,5.00648922 C18.658231,5.07811173 15.8291155,5.74261533 13,7 C13,7.04449645 13,10.79246 13,18.2438906 L12.9999854,18.2438906 C12.9999854,18.520041 13.2238496,18.7439052 13.5,18.7439052 C13.5635398,18.7439052 13.6264972,18.7317946 13.6855025,18.7082217 Z"
@@ -1163,7 +1163,7 @@ const Components = () => {
         aria-haspopup="true"
         data-ktmenu-submenu-toggle="hover"
       >
-        <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+        <a href="#" className="kt-menu__link kt-menu__toggle">
           <span className="kt-menu__link-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -1174,7 +1174,7 @@ const Components = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <rect
                   fill="#000000"

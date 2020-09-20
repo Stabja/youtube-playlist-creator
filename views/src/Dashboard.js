@@ -4,15 +4,15 @@ import React from 'react';
 import Sidebar from './components/Sidebar/index';
 import HeaderMenu from './components/HeaderMenu';
 import HeaderTopbar from './components/HeaderTopbar';
-import SubHeader from './components/SubHeader';
-import AppAside from './components/YoutubeTabs/Tabs/Profile/ChannelInfo';
-import AppContent from './components/YoutubeTabs/Tabs/Profile/ChannelContent';
 import Footer from './components/Footer';
 import QuickPanel from './components/QuickPanel';
 import StickyToolbar from './components/StickyToolbar';
 import DemoPanel from './components/DemoPanel';
 import ChatPanel from './components/ChatPanel';
 import YoutubeData from './components/YoutubeTabs/YoutubeData';
+/* import SubHeader from './components/SubHeader';
+import AppAside from './components/YoutubeTabs/Tabs/Profile/ChannelInfo';
+import AppContent from './components/YoutubeTabs/Tabs/Profile/ChannelContent'; */
 
 
 const Dashboard = () => {

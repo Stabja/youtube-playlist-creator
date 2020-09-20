@@ -1,9 +1,9 @@
+// eslint-disable-jsx-a11y/anchor-is-valid
 import React from 'react';
 
 const HeaderTopbar = () => {
   return (
     <div className="kt-header__topbar">
-      {/* <!--begin: Search --> */}
       <div
         className="kt-header__topbar-item kt-header__topbar-item--search dropdown"
         id="kt_quick_search_toggle"
@@ -23,18 +23,18 @@ const HeaderTopbar = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <path
                   d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z"
                   fill="#000000"
-                  fill-rule="nonzero"
+                  fillRule="nonzero"
                   opacity="0.3"
                 />
                 <path
                   d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z"
                   fill="#000000"
-                  fill-rule="nonzero"
+                  fillRule="nonzero"
                 />
               </g>
             </svg>
@@ -92,7 +92,7 @@ const HeaderTopbar = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <path
                   d="M2.56066017,10.6819805 L4.68198052,8.56066017 C5.26776695,7.97487373 6.21751442,7.97487373 6.80330086,8.56066017 L8.9246212,10.6819805 C9.51040764,11.267767 9.51040764,12.2175144 8.9246212,12.8033009 L6.80330086,14.9246212 C6.21751442,15.5104076 5.26776695,15.5104076 4.68198052,14.9246212 L2.56066017,12.8033009 C1.97487373,12.2175144 1.97487373,11.267767 2.56066017,10.6819805 Z M14.5606602,10.6819805 L16.6819805,8.56066017 C17.267767,7.97487373 18.2175144,7.97487373 18.8033009,8.56066017 L20.9246212,10.6819805 C21.5104076,11.267767 21.5104076,12.2175144 20.9246212,12.8033009 L18.8033009,14.9246212 C18.2175144,15.5104076 17.267767,15.5104076 16.6819805,14.9246212 L14.5606602,12.8033009 C13.9748737,12.2175144 13.9748737,11.267767 14.5606602,10.6819805 Z"
@@ -107,10 +107,6 @@ const HeaderTopbar = () => {
             </svg>
             <span className="kt-pulse__ring"></span>
           </span>
-          {/* <!--
-                    Use dot badge instead of animated pulse effect: 
-                    <span className="kt-badge kt-badge--dot kt-badge--notify kt-badge--sm kt-badge--brand"></span>
-                    --> */}
         </div>
         <div className="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-top-unround dropdown-menu-lg">
           <form>
@@ -133,7 +129,7 @@ const HeaderTopbar = () => {
                   <a
                     className="nav-link active show"
                     data-toggle="tab"
-                    href="#topbar_notifications_notifications"
+                    href="/#topbar_notifications_notifications"
                     role="tab"
                     aria-selected="true"
                   >
@@ -144,7 +140,7 @@ const HeaderTopbar = () => {
                   <a
                     className="nav-link"
                     data-toggle="tab"
-                    href="#topbar_notifications_events"
+                    href="/#topbar_notifications_events"
                     role="tab"
                     aria-selected="false"
                   >
@@ -155,7 +151,7 @@ const HeaderTopbar = () => {
                   <a
                     className="nav-link"
                     data-toggle="tab"
-                    href="#topbar_notifications_logs"
+                    href="/#topbar_notifications_logs"
                     role="tab"
                     aria-selected="false"
                   >
@@ -177,7 +173,7 @@ const HeaderTopbar = () => {
                   data-height="300"
                   data-mobile-height="200"
                 >
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-line-chart kt-font-success"></i>
                     </div>
@@ -188,7 +184,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">2 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-box-1 kt-font-brand"></i>
                     </div>
@@ -199,7 +195,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">3 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-chart2 kt-font-danger"></i>
                     </div>
@@ -210,7 +206,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">3 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-image-file kt-font-warning"></i>
                     </div>
@@ -221,7 +217,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">5 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-drop kt-font-info"></i>
                     </div>
@@ -232,7 +228,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">8 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-pie-chart-2 kt-font-success"></i>
                     </div>
@@ -243,7 +239,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">12 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-favourite kt-font-danger"></i>
                     </div>
@@ -255,7 +251,7 @@ const HeaderTopbar = () => {
                     </div>
                   </a>
                   <a
-                    href="#"
+                    href="/#"
                     className="kt-notification__item kt-notification__item--read"
                   >
                     <div className="kt-notification__item-icon">
@@ -268,7 +264,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">19 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-psd kt-font-success"></i>
                     </div>
@@ -279,7 +275,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">23 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon-download-1 kt-font-danger"></i>
                     </div>
@@ -290,7 +286,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">25 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon-security kt-font-warning"></i>
                     </div>
@@ -301,7 +297,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">2 days ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-pie-chart kt-font-success"></i>
                     </div>
@@ -325,7 +321,7 @@ const HeaderTopbar = () => {
                   data-height="300"
                   data-mobile-height="200"
                 >
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-psd kt-font-success"></i>
                     </div>
@@ -336,7 +332,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">23 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon-download-1 kt-font-danger"></i>
                     </div>
@@ -347,7 +343,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">25 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-line-chart kt-font-success"></i>
                     </div>
@@ -358,7 +354,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">2 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-box-1 kt-font-brand"></i>
                     </div>
@@ -369,7 +365,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">3 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-chart2 kt-font-danger"></i>
                     </div>
@@ -380,7 +376,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">3 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-image-file kt-font-warning"></i>
                     </div>
@@ -391,7 +387,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">5 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-drop kt-font-info"></i>
                     </div>
@@ -402,7 +398,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">8 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-pie-chart-2 kt-font-success"></i>
                     </div>
@@ -413,7 +409,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">12 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-favourite kt-font-brand"></i>
                     </div>
@@ -425,7 +421,7 @@ const HeaderTopbar = () => {
                     </div>
                   </a>
                   <a
-                    href="#"
+                    href="/#"
                     className="kt-notification__item kt-notification__item--read"
                   >
                     <div className="kt-notification__item-icon">
@@ -438,7 +434,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">19 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-psd kt-font-success"></i>
                     </div>
@@ -449,7 +445,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">23 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon-download-1 kt-font-danger"></i>
                     </div>
@@ -460,7 +456,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">25 hrs ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon-security kt-font-warning"></i>
                     </div>
@@ -471,7 +467,7 @@ const HeaderTopbar = () => {
                       <div className="kt-notification__item-time">2 days ago</div>
                     </div>
                   </a>
-                  <a href="#" className="kt-notification__item">
+                  <a href="/#" className="kt-notification__item">
                     <div className="kt-notification__item-icon">
                       <i className="flaticon2-pie-chart kt-font-success"></i>
                     </div>
@@ -521,7 +517,7 @@ const HeaderTopbar = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <rect
                   fill="#000000"
@@ -579,7 +575,7 @@ const HeaderTopbar = () => {
                     <!--begin: Grid Nav --> */}
             <div className="kt-grid-nav kt-grid-nav--skin-light">
               <div className="kt-grid-nav__row">
-                <a href="#" className="kt-grid-nav__item">
+                <a href="/#" className="kt-grid-nav__item">
                   <span className="kt-grid-nav__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -592,9 +588,9 @@ const HeaderTopbar = () => {
                     >
                       <g
                         stroke="none"
-                        stroke-width="1"
+                        strokeWidth="1"
                         fill="none"
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                       >
                         <rect x="0" y="0" width="24" height="24" />
                         <path
@@ -612,7 +608,7 @@ const HeaderTopbar = () => {
                   <span className="kt-grid-nav__title">Accounting</span>
                   <span className="kt-grid-nav__desc">eCommerce</span>
                 </a>
-                <a href="#" className="kt-grid-nav__item">
+                <a href="/#" className="kt-grid-nav__item">
                   <span className="kt-grid-nav__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -625,9 +621,9 @@ const HeaderTopbar = () => {
                     >
                       <g
                         stroke="none"
-                        stroke-width="1"
+                        strokeWidth="1"
                         fill="none"
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                       >
                         <rect x="0" y="0" width="24" height="24" />
                         <path
@@ -647,7 +643,7 @@ const HeaderTopbar = () => {
                 </a>
               </div>
               <div className="kt-grid-nav__row">
-                <a href="#" className="kt-grid-nav__item">
+                <a href="/#" className="kt-grid-nav__item">
                   <span className="kt-grid-nav__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -660,9 +656,9 @@ const HeaderTopbar = () => {
                     >
                       <g
                         stroke="none"
-                        stroke-width="1"
+                        strokeWidth="1"
                         fill="none"
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                       >
                         <rect x="0" y="0" width="24" height="24" />
                         <path
@@ -680,7 +676,7 @@ const HeaderTopbar = () => {
                   <span className="kt-grid-nav__title">Projects</span>
                   <span className="kt-grid-nav__desc">Pending Tasks</span>
                 </a>
-                <a href="#" className="kt-grid-nav__item">
+                <a href="/#" className="kt-grid-nav__item">
                   <span className="kt-grid-nav__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -693,21 +689,21 @@ const HeaderTopbar = () => {
                     >
                       <g
                         stroke="none"
-                        stroke-width="1"
+                        strokeWidth="1"
                         fill="none"
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                       >
                         <polygon points="0 0 24 0 24 24 0 24" />
                         <path
                           d="M18,14 C16.3431458,14 15,12.6568542 15,11 C15,9.34314575 16.3431458,8 18,8 C19.6568542,8 21,9.34314575 21,11 C21,12.6568542 19.6568542,14 18,14 Z M9,11 C6.790861,11 5,9.209139 5,7 C5,4.790861 6.790861,3 9,3 C11.209139,3 13,4.790861 13,7 C13,9.209139 11.209139,11 9,11 Z"
                           fill="#000000"
-                          fill-rule="nonzero"
+                          fillRule="nonzero"
                           opacity="0.3"
                         />
                         <path
                           d="M17.6011961,15.0006174 C21.0077043,15.0378534 23.7891749,16.7601418 23.9984937,20.4 C24.0069246,20.5466056 23.9984937,21 23.4559499,21 L19.6,21 C19.6,18.7490654 18.8562935,16.6718327 17.6011961,15.0006174 Z M0.00065168429,20.1992055 C0.388258525,15.4265159 4.26191235,13 8.98334134,13 C13.7712164,13 17.7048837,15.2931929 17.9979143,20.2 C18.0095879,20.3954741 17.9979143,21 17.2466999,21 C13.541124,21 8.03472472,21 0.727502227,21 C0.476712155,21 -0.0204617505,20.45918 0.00065168429,20.1992055 Z"
                           fill="#000000"
-                          fill-rule="nonzero"
+                          fillRule="nonzero"
                         />
                       </g>
                     </svg>
@@ -740,12 +736,12 @@ const HeaderTopbar = () => {
               version="1.1"
               className="kt-svg-icon"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                 <rect x="0" y="0" width="24" height="24" />
                 <path
                   d="M12,4.56204994 L7.76822128,9.6401844 C7.4146572,10.0644613 6.7840925,10.1217854 6.3598156,9.76822128 C5.9355387,9.4146572 5.87821464,8.7840925 6.23177872,8.3598156 L11.2317787,2.3598156 C11.6315738,1.88006147 12.3684262,1.88006147 12.7682213,2.3598156 L17.7682213,8.3598156 C18.1217854,8.7840925 18.0644613,9.4146572 17.6401844,9.76822128 C17.2159075,10.1217854 16.5853428,10.0644613 16.2317787,9.6401844 L12,4.56204994 Z"
                   fill="#000000"
-                  fill-rule="nonzero"
+                  fillRule="nonzero"
                   opacity="0.3"
                 />
                 <path
@@ -788,7 +784,7 @@ const HeaderTopbar = () => {
                 <div className="kt-mycart__item">
                   <div className="kt-mycart__container">
                     <div className="kt-mycart__info">
-                      <a href="#" className="kt-mycart__title">
+                      <a href="/#" className="kt-mycart__title">
                         Samsung
                       </a>
                       <span className="kt-mycart__desc">
@@ -798,15 +794,15 @@ const HeaderTopbar = () => {
                         <span className="kt-mycart__price">$ 450</span>
                         <span className="kt-mycart__text">for</span>
                         <span className="kt-mycart__quantity">7</span>
-                        <a href="#" className="btn btn-label-success btn-icon">
+                        <a href="/#" className="btn btn-label-success btn-icon">
                           &minus;
                         </a>
-                        <a href="#" className="btn btn-label-success btn-icon">
+                        <a href="/#" className="btn btn-label-success btn-icon">
                           &plus;
                         </a>
                       </div>
                     </div>
-                    <a href="#" className="kt-mycart__pic">
+                    <a href="/#" className="kt-mycart__pic">
                       <img src="assets/media/products/product9.jpg" title="" />
                     </a>
                   </div>
@@ -814,7 +810,7 @@ const HeaderTopbar = () => {
                 <div className="kt-mycart__item">
                   <div className="kt-mycart__container">
                     <div className="kt-mycart__info">
-                      <a href="#" className="kt-mycart__title">
+                      <a href="/#" className="kt-mycart__title">
                         Panasonic
                       </a>
                       <span className="kt-mycart__desc">For PHoto & Others</span>
@@ -822,15 +818,15 @@ const HeaderTopbar = () => {
                         <span className="kt-mycart__price">$ 329</span>
                         <span className="kt-mycart__text">for</span>
                         <span className="kt-mycart__quantity">1</span>
-                        <a href="#" className="btn btn-label-success btn-icon">
+                        <a href="/#" className="btn btn-label-success btn-icon">
                           &minus;
                         </a>
-                        <a href="#" className="btn btn-label-success btn-icon">
+                        <a href="/#" className="btn btn-label-success btn-icon">
                           &plus;
                         </a>
                       </div>
                     </div>
-                    <a href="#" className="kt-mycart__pic">
+                    <a href="/#" className="kt-mycart__pic">
                       <img src="assets/media/products/product13.jpg" title="" />
                     </a>
                   </div>
@@ -838,7 +834,7 @@ const HeaderTopbar = () => {
                 <div className="kt-mycart__item">
                   <div className="kt-mycart__container">
                     <div className="kt-mycart__info">
-                      <a href="#" className="kt-mycart__title">
+                      <a href="/#" className="kt-mycart__title">
                         Fujifilm
                       </a>
                       <span className="kt-mycart__desc">
@@ -848,15 +844,15 @@ const HeaderTopbar = () => {
                         <span className="kt-mycart__price">$ 520</span>
                         <span className="kt-mycart__text">for</span>
                         <span className="kt-mycart__quantity">6</span>
-                        <a href="#" className="btn btn-label-success btn-icon">
+                        <a href="/#" className="btn btn-label-success btn-icon">
                           &minus;
                         </a>
-                        <a href="#" className="btn btn-label-success btn-icon">
+                        <a href="/#" className="btn btn-label-success btn-icon">
                           &plus;
                         </a>
                       </div>
                     </div>
-                    <a href="#" className="kt-mycart__pic">
+                    <a href="/#" className="kt-mycart__pic">
                       <img src="assets/media/products/product16.jpg" title="" />
                     </a>
                   </div>
@@ -864,7 +860,7 @@ const HeaderTopbar = () => {
                 <div className="kt-mycart__item">
                   <div className="kt-mycart__container">
                     <div className="kt-mycart__info">
-                      <a href="#" className="kt-mycart__title">
+                      <a href="/#" className="kt-mycart__title">
                         Candy Machine
                       </a>
                       <span className="kt-mycart__desc">For PHoto & Others</span>
@@ -872,15 +868,15 @@ const HeaderTopbar = () => {
                         <span className="kt-mycart__price">$ 784</span>
                         <span className="kt-mycart__text">for</span>
                         <span className="kt-mycart__quantity">4</span>
-                        <a href="#" className="btn btn-label-success btn-icon">
+                        <a href="/#" className="btn btn-label-success btn-icon">
                           &minus;
                         </a>
-                        <a href="#" className="btn btn-label-success btn-icon">
+                        <a href="/#" className="btn btn-label-success btn-icon">
                           &plus;
                         </a>
                       </div>
                     </div>
-                    <a href="#" className="kt-mycart__pic">
+                    <a href="/#" className="kt-mycart__pic">
                       <img
                         src="assets/media/products/product15.jpg"
                         title=""
@@ -931,7 +927,7 @@ const HeaderTopbar = () => {
             version="1.1"
             className="kt-svg-icon"
           >
-            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
               <rect x="0" y="0" width="24" height="24" />
               <rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5" />
               <path
@@ -953,7 +949,7 @@ const HeaderTopbar = () => {
           <span className="kt-header__topbar-icon">
             <img
               className=""
-              src="https://keenthemes.com/metronic/themes/metronic/theme/default/demo1/dist/assets/media/flags/226-united-states.svg"
+              src="#"
               alt=""
             />
           </span>
@@ -961,33 +957,30 @@ const HeaderTopbar = () => {
         <div className="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-top-unround">
           <ul className="kt-nav kt-margin-t-10 kt-margin-b-10">
             <li className="kt-nav__item kt-nav__item--active">
-              <a href="#" className="kt-nav__link">
+              <a href="/#" className="kt-nav__link">
                 <span className="kt-nav__link-icon">
-                  <img
-                    src="https://keenthemes.com/metronic/themes/metronic/theme/default/demo1/dist/assets/media/flags/226-united-states.svg"
-                    alt=""
-                  />
+                  <img src="#" alt="image"/>
                 </span>
                 <span className="kt-nav__link-text">English</span>
               </a>
             </li>
             <li className="kt-nav__item">
-              <a href="#" className="kt-nav__link">
+              <a href="/#" className="kt-nav__link">
                 <span className="kt-nav__link-icon">
                   <img
-                    src="https://keenthemes.com/metronic/themes/metronic/theme/default/demo1/dist/assets/media/flags/128-spain.svg"
-                    alt=""
+                    src="#"
+                    alt="image"
                   />
                 </span>
                 <span className="kt-nav__link-text">Spanish</span>
               </a>
             </li>
             <li className="kt-nav__item">
-              <a href="#" className="kt-nav__link">
+              <a href="/#" className="kt-nav__link">
                 <span className="kt-nav__link-icon">
                   <img
-                    src="https://keenthemes.com/metronic/themes/metronic/theme/default/demo1/dist/assets/media/flags/162-germany.svg"
-                    alt=""
+                    src="#"
+                    alt="image"
                   />
                 </span>
                 <span className="kt-nav__link-text">German</span>
@@ -1046,7 +1039,7 @@ const HeaderTopbar = () => {
           {/* <!--end: Head -->
                   <!--begin: Navigation --> */}
           <div className="kt-notification">
-            <a href="personal-information.html" className="kt-notification__item">
+            <a href="/personal-information.html" className="kt-notification__item">
               <div className="kt-notification__item-icon">
                 <i className="flaticon2-calendar-3 kt-font-success"></i>
               </div>
@@ -1059,7 +1052,7 @@ const HeaderTopbar = () => {
                 </div>
               </div>
             </a>
-            <a href="../profile-3.html" className="kt-notification__item">
+            <a href="/../profile-3.html" className="kt-notification__item">
               <div className="kt-notification__item-icon">
                 <i className="flaticon2-mail kt-font-warning"></i>
               </div>
@@ -1070,7 +1063,7 @@ const HeaderTopbar = () => {
                 <div className="kt-notification__item-time">Inbox and tasks</div>
               </div>
             </a>
-            <a href="../profile-2.html" className="kt-notification__item">
+            <a href="/../profile-2.html" className="kt-notification__item">
               <div className="kt-notification__item-icon">
                 <i className="flaticon2-rocket-1 kt-font-danger"></i>
               </div>
@@ -1083,7 +1076,7 @@ const HeaderTopbar = () => {
                 </div>
               </div>
             </a>
-            <a href="../profile-3.html" className="kt-notification__item">
+            <a href="/../profile-3.html" className="kt-notification__item">
               <div className="kt-notification__item-icon">
                 <i className="flaticon2-hourglass kt-font-brand"></i>
               </div>
@@ -1096,7 +1089,7 @@ const HeaderTopbar = () => {
                 </div>
               </div>
             </a>
-            <a href="overview.html" className="kt-notification__item">
+            <a href="/overview.html" className="kt-notification__item">
               <div className="kt-notification__item-icon">
                 <i className="flaticon2-cardiogram kt-font-warning"></i>
               </div>
@@ -1114,14 +1107,14 @@ const HeaderTopbar = () => {
             </a>
             <div className="kt-notification__custom kt-space-between">
               <a
-                href="../../../user/login-v2.html"
+                href="/../../../user/login-v2.html"
                 target="_blank"
                 className="btn btn-label btn-label-brand btn-sm btn-bold"
               >
                 Sign Out
               </a>
               <a
-                href="../../../user/login-v2.html"
+                href="/../../../user/login-v2.html"
                 target="_blank"
                 className="btn btn-clean btn-sm btn-bold"
               >
@@ -1129,10 +1122,8 @@ const HeaderTopbar = () => {
               </a>
             </div>
           </div>
-          {/* <!--end: Navigation --> */}
         </div>
       </div>
-      {/* <!--end: User Bar -->	 */}
     </div>
   );
 };

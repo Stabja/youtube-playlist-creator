@@ -1,2 +1,3 @@
 {
+  "eslint.options": { "configFile": "~/Desktop/AAAAps/youtube-playlist-creator/views/.eslintrc" }
 }

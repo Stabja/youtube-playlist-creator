@@ -10867,7 +10867,7 @@ a.text-dark:focus,a.text-dark:hover {
 
   h2,h3 {
     page-break-after: avoid;
-  }@  page {
+  } @page {
     size: a3;
   }
 
@@ -44445,6 +44445,10 @@ td>.kt-radio.kt-radio--single,th>.kt-radio.kt-radio--single {
 .kt-link.kt-link--danger:hover:after {
   border-bottom: 1px solid #fc0758;
   opacity: .3;
+}
+
+.kt-section__body {
+  margin-left: -10px;
 }
 
 .kt-section {

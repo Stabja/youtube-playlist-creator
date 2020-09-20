@@ -1,4 +1,7 @@
+// eslint-disable-next-line
+// eslint-disable-jsx-a11y/anchor-is-valid
 import React from 'react';
+
 
 const Sidebar = () => {
   return (
@@ -24,21 +27,21 @@ const Sidebar = () => {
               >
                 <g
                   stroke="none"
-                  stroke-width="1"
+                  strokeWidth="1"
                   fill="none"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 >
                   <polygon points="0 0 24 0 24 24 0 24" />
                   <path
                     d="M5.29288961,6.70710318 C4.90236532,6.31657888 4.90236532,5.68341391 5.29288961,5.29288961 C5.68341391,4.90236532 6.31657888,4.90236532 6.70710318,5.29288961 L12.7071032,11.2928896 C13.0856821,11.6714686 13.0989277,12.281055 12.7371505,12.675721 L7.23715054,18.675721 C6.86395813,19.08284 6.23139076,19.1103429 5.82427177,18.7371505 C5.41715278,18.3639581 5.38964985,17.7313908 5.76284226,17.3242718 L10.6158586,12.0300721 L5.29288961,6.70710318 Z"
                     fill="#000000"
-                    fill-rule="nonzero"
+                    fillRule="nonzero"
                     transform="translate(8.999997, 11.999999) scale(-1, 1) translate(-8.999997, -11.999999) "
                   />
                   <path
                     d="M10.7071009,15.7071068 C10.3165766,16.0976311 9.68341162,16.0976311 9.29288733,15.7071068 C8.90236304,15.3165825 8.90236304,14.6834175 9.29288733,14.2928932 L15.2928873,8.29289322 C15.6714663,7.91431428 16.2810527,7.90106866 16.6757187,8.26284586 L22.6757187,13.7628459 C23.0828377,14.1360383 23.1103407,14.7686056 22.7371482,15.1757246 C22.3639558,15.5828436 21.7313885,15.6103465 21.3242695,15.2371541 L16.0300699,10.3841378 L10.7071009,15.7071068 Z"
                     fill="#000000"
-                    fill-rule="nonzero"
+                    fillRule="nonzero"
                     opacity="0.3"
                     transform="translate(15.999997, 11.999999) scale(-1, 1) rotate(-270.000000) translate(-15.999997, -11.999999) "
                   />
@@ -57,20 +60,20 @@ const Sidebar = () => {
               >
                 <g
                   stroke="none"
-                  stroke-width="1"
+                  strokeWidth="1"
                   fill="none"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 >
                   <polygon points="0 0 24 0 24 24 0 24" />
                   <path
                     d="M12.2928955,6.70710318 C11.9023712,6.31657888 11.9023712,5.68341391 12.2928955,5.29288961 C12.6834198,4.90236532 13.3165848,4.90236532 13.7071091,5.29288961 L19.7071091,11.2928896 C20.085688,11.6714686 20.0989336,12.281055 19.7371564,12.675721 L14.2371564,18.675721 C13.863964,19.08284 13.2313966,19.1103429 12.8242777,18.7371505 C12.4171587,18.3639581 12.3896557,17.7313908 12.7628481,17.3242718 L17.6158645,12.0300721 L12.2928955,6.70710318 Z"
                     fill="#000000"
-                    fill-rule="nonzero"
+                    fillRule="nonzero"
                   />
                   <path
                     d="M3.70710678,15.7071068 C3.31658249,16.0976311 2.68341751,16.0976311 2.29289322,15.7071068 C1.90236893,15.3165825 1.90236893,14.6834175 2.29289322,14.2928932 L8.29289322,8.29289322 C8.67147216,7.91431428 9.28105859,7.90106866 9.67572463,8.26284586 L15.6757246,13.7628459 C16.0828436,14.1360383 16.1103465,14.7686056 15.7371541,15.1757246 C15.3639617,15.5828436 14.7313944,15.6103465 14.3242754,15.2371541 L9.03007575,10.3841378 L3.70710678,15.7071068 Z"
                     fill="#000000"
-                    fill-rule="nonzero"
+                    fillRule="nonzero"
                     opacity="0.3"
                     transform="translate(9.000003, 11.999999) rotate(-270.000000) translate(-9.000003, -11.999999) "
                   />
@@ -94,7 +97,7 @@ const Sidebar = () => {
         >
           <ul className="kt-menu__nav ">
             <li className="kt-menu__item " aria-haspopup="true">
-              <a href="index.html" className="kt-menu__link ">
+              <a href="/index.html" className="kt-menu__link ">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -107,15 +110,15 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <polygon points="0 0 24 0 24 24 0 24" />
                       <path
                         d="M12.9336061,16.072447 L19.36,10.9564761 L19.5181585,10.8312381 C20.1676248,10.3169571 20.2772143,9.3735535 19.7629333,8.72408713 C19.6917232,8.63415859 19.6104327,8.55269514 19.5206557,8.48129411 L12.9336854,3.24257445 C12.3871201,2.80788259 11.6128799,2.80788259 11.0663146,3.24257445 L4.47482784,8.48488609 C3.82645598,9.00054628 3.71887192,9.94418071 4.23453211,10.5925526 C4.30500305,10.6811601 4.38527899,10.7615046 4.47382636,10.8320511 L4.63,10.9564761 L11.0659024,16.0730648 C11.6126744,16.5077525 12.3871218,16.5074963 12.9336061,16.072447 Z"
                         fill="#000000"
-                        fill-rule="nonzero"
+                        fillRule="nonzero"
                       />
                       <path
                         d="M11.0563554,18.6706981 L5.33593024,14.122919 C4.94553994,13.8125559 4.37746707,13.8774308 4.06710397,14.2678211 C4.06471678,14.2708238 4.06234874,14.2738418 4.06,14.2768747 L4.06,14.2768747 C3.75257288,14.6738539 3.82516916,15.244888 4.22214834,15.5523151 C4.22358765,15.5534297 4.2250303,15.55454 4.22647627,15.555646 L11.0872776,20.8031356 C11.6250734,21.2144692 12.371757,21.2145375 12.909628,20.8033023 L19.7677785,15.559828 C20.1693192,15.2528257 20.2459576,14.6784381 19.9389553,14.2768974 C19.9376429,14.2751809 19.9363245,14.2734691 19.935,14.2717619 L19.935,14.2717619 C19.6266937,13.8743807 19.0546209,13.8021712 18.6572397,14.1104775 C18.654352,14.112718 18.6514778,14.1149757 18.6486172,14.1172508 L12.9235044,18.6705218 C12.377022,19.1051477 11.6029199,19.1052208 11.0563554,18.6706981 Z"
@@ -137,7 +140,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -150,9 +153,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <rect
@@ -179,7 +182,7 @@ const Sidebar = () => {
                 <ul className="kt-menu__subnav">
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a 
-                      href="../list-default.html" 
+                      href="/../list-default.html" 
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -190,7 +193,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item" aria-haspopup="true">
                     <a 
-                      href="list-datatable.html" 
+                      href="/list-datatable.html" 
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -200,7 +203,7 @@ const Sidebar = () => {
                     </a>
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
-                    <a href="../list-columns-1.html" className="kt-menu__link ">
+                    <a href="/../list-columns-1.html" className="kt-menu__link ">
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                         <span></span>
                       </i>
@@ -208,7 +211,7 @@ const Sidebar = () => {
                     </a>
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
-                    <a href="../list-columns-2.html" className="kt-menu__link ">
+                    <a href="/../list-columns-2.html" className="kt-menu__link ">
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                         <span></span>
                       </i>
@@ -216,7 +219,7 @@ const Sidebar = () => {
                     </a>
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
-                    <a href="../add-user.html" className="kt-menu__link ">
+                    <a href="/../add-user.html" className="kt-menu__link ">
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                         <span></span>
                       </i>
@@ -224,7 +227,7 @@ const Sidebar = () => {
                     </a>
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
-                    <a href="../edit-user.html" className="kt-menu__link ">
+                    <a href="/../edit-user.html" className="kt-menu__link ">
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
                         <span></span>
                       </i>
@@ -239,7 +242,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -252,9 +255,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <rect
@@ -268,7 +271,7 @@ const Sidebar = () => {
                       <path
                         d="M6,18 L9,18 C9.66666667,18.1143819 10,18.4477153 10,19 C10,19.5522847 9.66666667,19.8856181 9,20 L4,20 L4,15 C4,14.3333333 4.33333333,14 5,14 C5.66666667,14 6,14.3333333 6,15 L6,18 Z M18,18 L18,15 C18.1143819,14.3333333 18.4477153,14 19,14 C19.5522847,14 19.8856181,14.3333333 20,15 L20,20 L15,20 C14.3333333,20 14,19.6666667 14,19 C14,18.3333333 14.3333333,18 15,18 L18,18 Z M18,6 L15,6 C14.3333333,5.88561808 14,5.55228475 14,5 C14,4.44771525 14.3333333,4.11438192 15,4 L20,4 L20,9 C20,9.66666667 19.6666667,10 19,10 C18.3333333,10 18,9.66666667 18,9 L18,6 Z M6,6 L6,9 C5.88561808,9.66666667 5.55228475,10 5,10 C4.44771525,10 4.11438192,9.66666667 4,9 L4,4 L9,4 C9.66666667,4 10,4.33333333 10,5 C10,5.66666667 9.66666667,6 9,6 L6,6 Z"
                         fill="#000000"
-                        fill-rule="nonzero"
+                        fillRule="nonzero"
                       />
                     </g>
                   </svg>
@@ -281,7 +284,7 @@ const Sidebar = () => {
                 <ul className="kt-menu__subnav">
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="../../../pages/wizard/wizard-1.html"
+                      href="/../../../pages/wizard/wizard-1.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -292,7 +295,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="../../../pages/wizard/wizard-2.html"
+                      href="/../../../pages/wizard/wizard-2.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -303,7 +306,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="../../../pages/wizard/wizard-3.html"
+                      href="/../../../pages/wizard/wizard-3.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -314,7 +317,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="../../../pages/wizard/wizard-4.html"
+                      href="/../../../pages/wizard/wizard-4.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -335,7 +338,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -348,15 +351,15 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <path
                         d="M5,5 L5,15 C5,15.5948613 5.25970314,16.1290656 5.6719139,16.4954176 C5.71978107,16.5379595 5.76682388,16.5788906 5.81365532,16.6178662 C5.82524933,16.6294602 15,7.45470952 15,7.45470952 C15,6.9962515 15,6.17801499 15,5 L5,5 Z M5,3 L15,3 C16.1045695,3 17,3.8954305 17,5 L17,15 C17,17.209139 15.209139,19 13,19 L7,19 C4.790861,19 3,17.209139 3,15 L3,5 C3,3.8954305 3.8954305,3 5,3 Z"
                         fill="#000000"
-                        fill-rule="nonzero"
+                        fillRule="nonzero"
                         transform="translate(10.000000, 11.000000) rotate(-315.000000) translate(-10.000000, -11.000000) "
                       />
                       <path
@@ -383,7 +386,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="layout/skins/aside-light.html"
+                      href="/layout/skins/aside-light.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -394,7 +397,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="layout/skins/header-dark.html"
+                      href="/layout/skins/header-dark.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -411,7 +414,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -424,9 +427,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <path
@@ -457,7 +460,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="layout/subheader/toolbar.html"
+                      href="/layout/subheader/toolbar.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -468,7 +471,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="layout/subheader/actions.html"
+                      href="/layout/subheader/actions.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -481,7 +484,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="layout/subheader/tabbed.html"
+                      href="/layout/subheader/tabbed.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -492,7 +495,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="layout/subheader/classNameic.html"
+                      href="/layout/subheader/classNameic.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -503,7 +506,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="layout/subheader/none.html"
+                      href="/layout/subheader/none.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -520,7 +523,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -533,9 +536,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <path
@@ -566,7 +569,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="layout/general/fixed-content.html"
+                      href="/layout/general/fixed-content.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -577,7 +580,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="layout/general/minimized-aside.html"
+                      href="/layout/general/minimized-aside.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -590,7 +593,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="layout/general/no-aside.html"
+                      href="/layout/general/no-aside.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -601,7 +604,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="layout/general/empty-page.html"
+                      href="/layout/general/empty-page.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -612,7 +615,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="layout/general/fixed-footer.html"
+                      href="/layout/general/fixed-footer.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -623,7 +626,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="layout/general/no-header-menu.html"
+                      href="/layout/general/no-header-menu.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -636,7 +639,7 @@ const Sidebar = () => {
               </div>
             </li>
             <li className="kt-menu__item " aria-haspopup="true">
-              <a href="builder.html" className="kt-menu__link ">
+              <a href="/builder.html" className="kt-menu__link ">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -649,9 +652,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <path
@@ -683,7 +686,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -696,9 +699,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule ="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <path
@@ -733,7 +736,7 @@ const Sidebar = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="/#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -747,7 +750,7 @@ const Sidebar = () => {
                       <ul className="kt-menu__subnav">
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/controls/base.html"
+                            href="/crud/forms/controls/base.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -760,7 +763,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/controls/input-group.html"
+                            href="/crud/forms/controls/input-group.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -773,7 +776,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/controls/checkbox.html"
+                            href="/crud/forms/controls/checkbox.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -784,7 +787,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/controls/radio.html"
+                            href="/crud/forms/controls/radio.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -795,7 +798,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/controls/switch.html"
+                            href="/crud/forms/controls/switch.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -806,7 +809,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/controls/option.html"
+                            href="/crud/forms/controls/option.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -826,7 +829,7 @@ const Sidebar = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="/#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -840,7 +843,7 @@ const Sidebar = () => {
                       <ul className="kt-menu__subnav">
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/bootstrap-datepicker.html"
+                            href="/crud/forms/widgets/bootstrap-datepicker.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -853,7 +856,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/bootstrap-datetimepicker.html"
+                            href="/crud/forms/widgets/bootstrap-datetimepicker.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -866,7 +869,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/bootstrap-timepicker.html"
+                            href="/crud/forms/widgets/bootstrap-timepicker.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -879,7 +882,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/bootstrap-daterangepicker.html"
+                            href="/crud/forms/widgets/bootstrap-daterangepicker.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -892,7 +895,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/tagify.html"
+                            href="/crud/forms/widgets/tagify.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -903,7 +906,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/bootstrap-touchspin.html"
+                            href="/crud/forms/widgets/bootstrap-touchspin.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -916,7 +919,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/bootstrap-maxlength.html"
+                            href="/crud/forms/widgets/bootstrap-maxlength.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -929,7 +932,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/bootstrap-switch.html"
+                            href="/crud/forms/widgets/bootstrap-switch.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -940,7 +943,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/bootstrap-multipleselectsplitter.html"
+                            href="/crud/forms/widgets/bootstrap-multipleselectsplitter.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -953,7 +956,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/bootstrap-select.html"
+                            href="/crud/forms/widgets/bootstrap-select.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -966,7 +969,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/select2.html"
+                            href="/crud/forms/widgets/select2.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -977,7 +980,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/typeahead.html"
+                            href="/crud/forms/widgets/typeahead.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -990,7 +993,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/nouislider.html"
+                            href="/crud/forms/widgets/nouislider.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1003,7 +1006,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/form-repeater.html"
+                            href="/crud/forms/widgets/form-repeater.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1016,7 +1019,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/ion-range-slider.html"
+                            href="/crud/forms/widgets/ion-range-slider.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1029,7 +1032,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/input-mask.html"
+                            href="/crud/forms/widgets/input-mask.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1042,7 +1045,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/autosize.html"
+                            href="/crud/forms/widgets/autosize.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1053,7 +1056,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/clipboard.html"
+                            href="/crud/forms/widgets/clipboard.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1066,7 +1069,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/widgets/recaptcha.html"
+                            href="/crud/forms/widgets/recaptcha.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1086,7 +1089,7 @@ const Sidebar = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="/#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1102,7 +1105,7 @@ const Sidebar = () => {
                       <ul className="kt-menu__subnav">
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/editors/tinymce.html"
+                            href="/crud/forms/editors/tinymce.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1117,7 +1120,7 @@ const Sidebar = () => {
                           data-ktmenu-submenu-toggle="hover"
                         >
                           <a
-                            href="javascript:;"
+                            href="/#"
                             className="kt-menu__link kt-menu__toggle"
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1134,7 +1137,7 @@ const Sidebar = () => {
                                 aria-haspopup="true"
                               >
                                 <a
-                                  href="crud/forms/editors/ckeditor-classNameic.html"
+                                  href="/crud/forms/editors/ckeditor-classNameic.html"
                                   className="kt-menu__link "
                                 >
                                   <i className="kt-menu__link-bullet kt-menu__link-bullet--line">
@@ -1150,7 +1153,7 @@ const Sidebar = () => {
                                 aria-haspopup="true"
                               >
                                 <a
-                                  href="crud/forms/editors/ckeditor-inline.html"
+                                  href="/crud/forms/editors/ckeditor-inline.html"
                                   className="kt-menu__link "
                                 >
                                   <i className="kt-menu__link-bullet kt-menu__link-bullet--line">
@@ -1166,7 +1169,7 @@ const Sidebar = () => {
                                 aria-haspopup="true"
                               >
                                 <a
-                                  href="crud/forms/editors/ckeditor-balloon.html"
+                                  href="/crud/forms/editors/ckeditor-balloon.html"
                                   className="kt-menu__link "
                                 >
                                   <i className="kt-menu__link-bullet kt-menu__link-bullet--line">
@@ -1182,7 +1185,7 @@ const Sidebar = () => {
                                 aria-haspopup="true"
                               >
                                 <a
-                                  href="crud/forms/editors/ckeditor-balloon-block.html"
+                                  href="/crud/forms/editors/ckeditor-balloon-block.html"
                                   className="kt-menu__link "
                                 >
                                   <i className="kt-menu__link-bullet kt-menu__link-bullet--line">
@@ -1198,7 +1201,7 @@ const Sidebar = () => {
                                 aria-haspopup="true"
                               >
                                 <a
-                                  href="crud/forms/editors/ckeditor-document.html"
+                                  href="/crud/forms/editors/ckeditor-document.html"
                                   className="kt-menu__link "
                                 >
                                   <i className="kt-menu__link-bullet kt-menu__link-bullet--line">
@@ -1214,7 +1217,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/editors/quill.html"
+                            href="/crud/forms/editors/quill.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1227,7 +1230,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/editors/summernote.html"
+                            href="/crud/forms/editors/summernote.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1240,7 +1243,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/editors/bootstrap-markdown.html"
+                            href="/crud/forms/editors/bootstrap-markdown.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1260,7 +1263,7 @@ const Sidebar = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="/#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1274,7 +1277,7 @@ const Sidebar = () => {
                       <ul className="kt-menu__subnav">
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/layouts/default-forms.html"
+                            href="/crud/forms/layouts/default-forms.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1287,7 +1290,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/layouts/multi-column-forms.html"
+                            href="/crud/forms/layouts/multi-column-forms.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1300,7 +1303,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/layouts/action-bars.html"
+                            href="/crud/forms/layouts/action-bars.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1313,7 +1316,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/layouts/sticky-action-bar.html"
+                            href="/crud/forms/layouts/sticky-action-bar.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1333,7 +1336,7 @@ const Sidebar = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="/#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1349,7 +1352,7 @@ const Sidebar = () => {
                       <ul className="kt-menu__subnav">
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/validation/states.html"
+                            href="/crud/forms/validation/states.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1362,7 +1365,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/validation/form-controls.html"
+                            href="/crud/forms/validation/form-controls.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1375,7 +1378,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/forms/validation/form-widgets.html"
+                            href="/crud/forms/validation/form-widgets.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1397,7 +1400,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -1410,9 +1413,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <path
@@ -1451,7 +1454,7 @@ const Sidebar = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="/#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1465,7 +1468,7 @@ const Sidebar = () => {
                       <ul className="kt-menu__subnav">
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/base/data-local.html"
+                            href="/crud/metronic-datatable/base/data-local.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1478,7 +1481,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/base/data-json.html"
+                            href="/crud/metronic-datatable/base/data-json.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1491,7 +1494,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/base/data-ajax.html"
+                            href="/crud/metronic-datatable/base/data-ajax.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1504,7 +1507,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/base/html-table.html"
+                            href="/crud/metronic-datatable/base/html-table.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1517,7 +1520,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/base/local-sort.html"
+                            href="/crud/metronic-datatable/base/local-sort.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1530,7 +1533,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/base/translation.html"
+                            href="/crud/metronic-datatable/base/translation.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1550,7 +1553,7 @@ const Sidebar = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="/#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1564,7 +1567,7 @@ const Sidebar = () => {
                       <ul className="kt-menu__subnav">
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/advanced/record-selection.html"
+                            href="/crud/metronic-datatable/advanced/record-selection.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1577,7 +1580,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/advanced/row-details.html"
+                            href="/crud/metronic-datatable/advanced/row-details.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1590,7 +1593,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/advanced/modal.html"
+                            href="/crud/metronic-datatable/advanced/modal.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1603,7 +1606,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/advanced/column-rendering.html"
+                            href="/crud/metronic-datatable/advanced/column-rendering.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1616,7 +1619,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/advanced/column-width.html"
+                            href="/crud/metronic-datatable/advanced/column-width.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1629,7 +1632,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/advanced/vertical.html"
+                            href="/crud/metronic-datatable/advanced/vertical.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1642,7 +1645,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/advanced/horizontal.html"
+                            href="/crud/metronic-datatable/advanced/horizontal.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1662,7 +1665,7 @@ const Sidebar = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="/#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1678,7 +1681,7 @@ const Sidebar = () => {
                       <ul className="kt-menu__subnav">
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/child/data-local.html"
+                            href="/crud/metronic-datatable/child/data-local.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1691,7 +1694,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/child/data-ajax.html"
+                            href="/crud/metronic-datatable/child/data-ajax.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1711,7 +1714,7 @@ const Sidebar = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="/#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1725,7 +1728,7 @@ const Sidebar = () => {
                       <ul className="kt-menu__subnav">
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/api/methods.html"
+                            href="/crud/metronic-datatable/api/methods.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1738,7 +1741,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/metronic-datatable/api/events.html"
+                            href="/crud/metronic-datatable/api/events.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1758,7 +1761,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -1771,9 +1774,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <rect
@@ -1816,7 +1819,7 @@ const Sidebar = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="/#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1830,7 +1833,7 @@ const Sidebar = () => {
                       <ul className="kt-menu__subnav">
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/basic/basic.html"
+                            href="/crud/datatables/basic/basic.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1843,7 +1846,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/basic/scrollable.html"
+                            href="/crud/datatables/basic/scrollable.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1856,7 +1859,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/basic/headers.html"
+                            href="/crud/datatables/basic/headers.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1869,7 +1872,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/basic/paginations.html"
+                            href="/crud/datatables/basic/paginations.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1889,7 +1892,7 @@ const Sidebar = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="/#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1903,7 +1906,7 @@ const Sidebar = () => {
                       <ul className="kt-menu__subnav">
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/advanced/column-rendering.html"
+                            href="/crud/datatables/advanced/column-rendering.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1916,7 +1919,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/advanced/multiple-controls.html"
+                            href="/crud/datatables/advanced/multiple-controls.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1929,7 +1932,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/advanced/column-visibility.html"
+                            href="/crud/datatables/advanced/column-visibility.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1942,7 +1945,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/advanced/row-callback.html"
+                            href="/crud/datatables/advanced/row-callback.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1955,7 +1958,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/advanced/row-grouping.html"
+                            href="/crud/datatables/advanced/row-grouping.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1968,7 +1971,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/advanced/footer-callback.html"
+                            href="/crud/datatables/advanced/footer-callback.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -1988,7 +1991,7 @@ const Sidebar = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="/#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2002,7 +2005,7 @@ const Sidebar = () => {
                       <ul className="kt-menu__subnav">
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/data-sources/html.html"
+                            href="/crud/datatables/data-sources/html.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2013,7 +2016,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/data-sources/javascript.html"
+                            href="/crud/datatables/data-sources/javascript.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2026,7 +2029,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/data-sources/ajax-client-side.html"
+                            href="/crud/datatables/data-sources/ajax-client-side.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2039,7 +2042,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/data-sources/ajax-server-side.html"
+                            href="/crud/datatables/data-sources/ajax-server-side.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2059,7 +2062,7 @@ const Sidebar = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="/#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2073,7 +2076,7 @@ const Sidebar = () => {
                       <ul className="kt-menu__subnav">
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/search-options/column-search.html"
+                            href="/crud/datatables/search-options/column-search.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2086,7 +2089,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/search-options/advanced-search.html"
+                            href="/crud/datatables/search-options/advanced-search.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2106,7 +2109,7 @@ const Sidebar = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="/#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2120,7 +2123,7 @@ const Sidebar = () => {
                       <ul className="kt-menu__subnav">
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/extensions/buttons.html"
+                            href="/crud/datatables/extensions/buttons.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2131,7 +2134,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/extensions/colreorder.html"
+                            href="/crud/datatables/extensions/colreorder.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2144,7 +2147,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/extensions/keytable.html"
+                            href="/crud/datatables/extensions/keytable.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2155,7 +2158,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/extensions/responsive.html"
+                            href="/crud/datatables/extensions/responsive.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2168,7 +2171,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/extensions/rowgroup.html"
+                            href="/crud/datatables/extensions/rowgroup.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2179,7 +2182,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/extensions/rowreorder.html"
+                            href="/crud/datatables/extensions/rowreorder.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2192,7 +2195,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/extensions/scroller.html"
+                            href="/crud/datatables/extensions/scroller.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2203,7 +2206,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="crud/datatables/extensions/select.html"
+                            href="/crud/datatables/extensions/select.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2223,7 +2226,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -2236,15 +2239,15 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <path
                         d="M2,13 C2,12.5 2.5,12 3,12 C3.5,12 4,12.5 4,13 C4,13.3333333 4,15 4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 C2,15 2,13.3333333 2,13 Z"
                         fill="#000000"
-                        fill-rule="nonzero"
+                        fillRule="nonzero"
                         opacity="0.3"
                       />
                       <rect
@@ -2259,7 +2262,7 @@ const Sidebar = () => {
                       <path
                         d="M12.0362375,3.37797611 L7.70710678,7.70710678 C7.31658249,8.09763107 6.68341751,8.09763107 6.29289322,7.70710678 C5.90236893,7.31658249 5.90236893,6.68341751 6.29289322,6.29289322 L11.2928932,1.29289322 C11.6689749,0.916811528 12.2736364,0.900910387 12.6689647,1.25670585 L17.6689647,5.75670585 C18.0794748,6.12616487 18.1127532,6.75845471 17.7432941,7.16896473 C17.3738351,7.57947475 16.7415453,7.61275317 16.3310353,7.24329415 L12.0362375,3.37797611 Z"
                         fill="#000000"
-                        fill-rule="nonzero"
+                        fillRule="nonzero"
                       />
                     </g>
                   </svg>
@@ -2272,7 +2275,7 @@ const Sidebar = () => {
                 <ul className="kt-menu__subnav">
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="crud/file-upload/metronic-avatar.html"
+                      href="/crud/file-upload/metronic-avatar.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2285,7 +2288,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="crud/file-upload/dropzonejs.html"
+                      href="/crud/file-upload/dropzonejs.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2301,7 +2304,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="crud/file-upload/uppy.html"
+                      href="/crud/file-upload/uppy.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2322,7 +2325,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -2335,9 +2338,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <path
@@ -2368,7 +2371,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/base/colors.html"
+                      href="/components/base/colors.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2379,7 +2382,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/base/typography.html"
+                      href="/components/base/typography.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2390,7 +2393,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/base/buttons.html"
+                      href="/components/base/buttons.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2401,7 +2404,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/base/button-group.html"
+                      href="/components/base/button-group.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2412,7 +2415,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/base/dropdown.html"
+                      href="/components/base/dropdown.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2423,7 +2426,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/base/tabs/bootstrap.html"
+                      href="/components/base/tabs/bootstrap.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2434,7 +2437,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/base/tabs/line.html"
+                      href="/components/base/tabs/line.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2445,7 +2448,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/base/accordions.html"
+                      href="/components/base/accordions.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2456,7 +2459,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/base/tables.html"
+                      href="/components/base/tables.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2467,7 +2470,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/base/progress.html"
+                      href="/components/base/progress.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2478,7 +2481,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/base/modal.html"
+                      href="/components/base/modal.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2489,7 +2492,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/base/alerts.html"
+                      href="/components/base/alerts.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2500,7 +2503,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/base/popover.html"
+                      href="/components/base/popover.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2511,7 +2514,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/base/tooltip.html"
+                      href="/components/base/tooltip.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2528,7 +2531,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -2541,9 +2544,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <path
@@ -2581,7 +2584,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/custom/badge.html"
+                      href="/components/custom/badge.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2592,7 +2595,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/custom/navs.html"
+                      href="/components/custom/navs.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2603,7 +2606,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/custom/lists.html"
+                      href="/components/custom/lists.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2614,7 +2617,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/custom/notes.html"
+                      href="/components/custom/notes.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2625,7 +2628,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/custom/timeline.html"
+                      href="/components/custom/timeline.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2636,7 +2639,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/custom/pagination.html"
+                      href="/components/custom/pagination.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2647,7 +2650,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/custom/media.html"
+                      href="/components/custom/media.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2658,7 +2661,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/custom/spinners.html"
+                      href="/components/custom/spinners.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2669,7 +2672,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/custom/iconbox.html"
+                      href="/components/custom/iconbox.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2680,7 +2683,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/custom/infobox.html"
+                      href="/components/custom/infobox.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2691,7 +2694,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/custom/callout.html"
+                      href="/components/custom/callout.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2702,7 +2705,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/custom/ribbon.html"
+                      href="/components/custom/ribbon.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2713,7 +2716,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/custom/miscellaneous.html"
+                      href="/components/custom/miscellaneous.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2730,7 +2733,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -2743,15 +2746,15 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <path
                         d="M13,17.0484323 L13,18 L14,18 C15.1045695,18 16,18.8954305 16,20 L8,20 C8,18.8954305 8.8954305,18 10,18 L11,18 L11,17.0482312 C6.89844817,16.5925472 3.58685702,13.3691811 3.07555009,9.22038742 C3.00799634,8.67224972 3.3975866,8.17313318 3.94572429,8.10557943 C4.49386199,8.03802567 4.99297853,8.42761593 5.06053229,8.97575363 C5.4896663,12.4577884 8.46049164,15.1035129 12.0008191,15.1035129 C15.577644,15.1035129 18.5681939,12.4043008 18.9524872,8.87772126 C19.0123158,8.32868667 19.505897,7.93210686 20.0549316,7.99193546 C20.6039661,8.05176407 21.000546,8.54534521 20.9407173,9.09437981 C20.4824216,13.3000638 17.1471597,16.5885839 13,17.0484323 Z"
                         fill="#000000"
-                        fill-rule="nonzero"
+                        fillRule="nonzero"
                       />
                       <path
                         d="M12,14 C8.6862915,14 6,11.3137085 6,8 C6,4.6862915 8.6862915,2 12,2 C15.3137085,2 18,4.6862915 18,8 C18,11.3137085 15.3137085,14 12,14 Z M8.81595773,7.80077353 C8.79067542,7.43921955 8.47708263,7.16661749 8.11552864,7.19189981 C7.75397465,7.21718213 7.4813726,7.53077492 7.50665492,7.89232891 C7.62279197,9.55316612 8.39667037,10.8635466 9.79502238,11.7671393 C10.099435,11.9638458 10.5056723,11.8765328 10.7023788,11.5721203 C10.8990854,11.2677077 10.8117724,10.8614704 10.5073598,10.6647638 C9.4559885,9.98538454 8.90327706,9.04949813 8.81595773,7.80077353 Z"
@@ -2777,7 +2780,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/extended/kanban-board.html"
+                      href="/components/extended/kanban-board.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2788,7 +2791,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/extended/sticky-panels.html"
+                      href="/components/extended/sticky-panels.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2799,7 +2802,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/extended/blockui.html"
+                      href="/components/extended/blockui.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2810,7 +2813,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/extended/perfect-scrollbar.html"
+                      href="/components/extended/perfect-scrollbar.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2823,7 +2826,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/extended/treeview.html"
+                      href="/components/extended/treeview.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2834,7 +2837,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/extended/bootstrap-notify.html"
+                      href="/components/extended/bootstrap-notify.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2847,7 +2850,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/extended/toastr.html"
+                      href="/components/extended/toastr.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2858,7 +2861,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/extended/sweetalert2.html"
+                      href="/components/extended/sweetalert2.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2869,7 +2872,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/extended/dual-listbox.html"
+                      href="/components/extended/dual-listbox.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2880,7 +2883,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/extended/cropper.html"
+                      href="/components/extended/cropper.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2897,7 +2900,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -2910,9 +2913,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <path
@@ -2949,7 +2952,7 @@ const Sidebar = () => {
                 <ul className="kt-menu__subnav">
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/icons/flaticon.html"
+                      href="/components/icons/flaticon.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2960,7 +2963,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/icons/fontawesome5.html"
+                      href="/components/icons/fontawesome5.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2971,7 +2974,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/icons/lineawesome.html"
+                      href="/components/icons/lineawesome.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2982,7 +2985,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/icons/socicons.html"
+                      href="/components/icons/socicons.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -2993,7 +2996,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/icons/svg.html"
+                      href="/components/icons/svg.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3010,7 +3013,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -3023,9 +3026,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <path
@@ -3056,7 +3059,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/portlets/base.html"
+                      href="/components/portlets/base.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3067,7 +3070,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/portlets/advanced.html"
+                      href="/components/portlets/advanced.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3080,7 +3083,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/portlets/tabbed.html"
+                      href="/components/portlets/tabbed.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3093,7 +3096,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/portlets/draggable.html"
+                      href="/components/portlets/draggable.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3106,7 +3109,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/portlets/tools.html"
+                      href="/components/portlets/tools.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3117,7 +3120,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/portlets/sticky-head.html"
+                      href="/components/portlets/sticky-head.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3134,7 +3137,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -3147,9 +3150,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <rect
@@ -3164,7 +3167,7 @@ const Sidebar = () => {
                       <path
                         d="M9.9486833,13.3162278 C9.81256925,13.7245699 9.43043041,14 9,14 L5,14 C4.44771525,14 4,13.5522847 4,13 C4,12.4477153 4.44771525,12 5,12 L8.27924078,12 L10.0513167,6.68377223 C10.367686,5.73466443 11.7274983,5.78688777 11.9701425,6.75746437 L13.8145063,14.1349195 L14.6055728,12.5527864 C14.7749648,12.2140024 15.1212279,12 15.5,12 L19,12 C19.5522847,12 20,12.4477153 20,13 C20,13.5522847 19.5522847,14 19,14 L16.118034,14 L14.3944272,17.4472136 C13.9792313,18.2776054 12.7550291,18.143222 12.5298575,17.2425356 L10.8627389,10.5740611 L9.9486833,13.3162278 Z"
                         fill="#000000"
-                        fill-rule="nonzero"
+                        fillRule="nonzero"
                       />
                       <circle
                         fill="#000000"
@@ -3192,7 +3195,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/widgets/lists.html"
+                      href="/components/widgets/lists.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3203,7 +3206,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/widgets/charts.html"
+                      href="/components/widgets/charts.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3214,7 +3217,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/widgets/general.html"
+                      href="/components/widgets/general.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3231,7 +3234,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -3244,9 +3247,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <polygon points="0 0 24 0 24 24 0 24" />
                       <path
@@ -3277,7 +3280,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/calendar/basic.html"
+                      href="/components/calendar/basic.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3288,7 +3291,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/calendar/list-view.html"
+                      href="/components/calendar/list-view.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3299,7 +3302,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/calendar/google.html"
+                      href="/components/calendar/google.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3312,7 +3315,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/calendar/external-events.html"
+                      href="/components/calendar/external-events.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3325,7 +3328,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/calendar/background-events.html"
+                      href="/components/calendar/background-events.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3344,7 +3347,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -3357,9 +3360,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <rect
@@ -3418,7 +3421,7 @@ const Sidebar = () => {
                     data-ktmenu-submenu-toggle="hover"
                   >
                     <a
-                      href="javascript:;"
+                      href="/#"
                       className="kt-menu__link kt-menu__toggle"
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3432,7 +3435,7 @@ const Sidebar = () => {
                       <ul className="kt-menu__subnav">
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="components/charts/amcharts/charts.html"
+                            href="/components/charts/amcharts/charts.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3445,7 +3448,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="components/charts/amcharts/stock-charts.html"
+                            href="/components/charts/amcharts/stock-charts.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3458,7 +3461,7 @@ const Sidebar = () => {
                         </li>
                         <li className="kt-menu__item " aria-haspopup="true">
                           <a
-                            href="components/charts/amcharts/maps.html"
+                            href="/components/charts/amcharts/maps.html"
                             className="kt-menu__link "
                           >
                             <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3474,7 +3477,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/charts/flotcharts.html"
+                      href="/components/charts/flotcharts.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3485,7 +3488,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/charts/google-charts.html"
+                      href="/components/charts/google-charts.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3496,7 +3499,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/charts/morris-charts.html"
+                      href="/components/charts/morris-charts.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3513,7 +3516,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -3526,9 +3529,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <path
@@ -3559,7 +3562,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/maps/google-maps.html"
+                      href="/components/maps/google-maps.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3570,7 +3573,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/maps/jqvmap.html"
+                      href="/components/maps/jqvmap.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3587,7 +3590,7 @@ const Sidebar = () => {
               aria-haspopup="true"
               data-ktmenu-submenu-toggle="hover"
             >
-              <a href="javascript:;" className="kt-menu__link kt-menu__toggle">
+              <a href="/#" className="kt-menu__link kt-menu__toggle">
                 <span className="kt-menu__link-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -3600,9 +3603,9 @@ const Sidebar = () => {
                   >
                     <g
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       <rect x="0" y="0" width="24" height="24" />
                       <rect
@@ -3637,7 +3640,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/utils/session-timeout.html"
+                      href="/components/utils/session-timeout.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">
@@ -3650,7 +3653,7 @@ const Sidebar = () => {
                   </li>
                   <li className="kt-menu__item " aria-haspopup="true">
                     <a
-                      href="components/utils/idle-timer.html"
+                      href="/components/utils/idle-timer.html"
                       className="kt-menu__link "
                     >
                       <i className="kt-menu__link-bullet kt-menu__link-bullet--dot">

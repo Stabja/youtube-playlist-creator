@@ -76,7 +76,7 @@ const Videos = () => {
                   </div>
                   <span className="form-text text-muted">
                     Email will not be publicly displayed.{' '}
-                    <a href="#" className="kt-link">
+                    <a href="/#" className="kt-link">
                       Learn more
                     </a>
                     .
@@ -138,11 +138,11 @@ const Videos = () => {
                 <div className="col-lg-9 col-xl-6">
                   <div className="kt-checkbox-inline">
                     <label className="kt-checkbox">
-                      <input type="checkbox" checked="" /> Email
+                      <input type="checkbox" checked="" readOnly/> Email
                       <span></span>
                     </label>
                     <label className="kt-checkbox">
-                      <input type="checkbox" checked="" /> SMS
+                      <input type="checkbox" checked="" readOnly/> SMS
                       <span></span>
                     </label>
                     <label className="kt-checkbox">
@@ -180,7 +180,7 @@ const Videos = () => {
                     After you log in, you will be asked for additional
                     information to confirm your identity and protect your
                     account from being compromised.
-                    <a href="#" className="kt-link">
+                    <a href="/#" className="kt-link">
                       Learn more
                     </a>
                     .
@@ -202,7 +202,7 @@ const Videos = () => {
                   <span className="form-text text-muted">
                     For extra security, this requires you to confirm your email
                     or phone number when you reset your password.
-                    <a href="#" className="kt-link">
+                    <a href="/#" className="kt-link">
                       Learn more
                     </a>
                     .
@@ -228,10 +228,10 @@ const Videos = () => {
           <div className="row">
             <div className="col-xl-3"></div>
             <div className="col-lg-9 col-xl-6">
-              <a href="#" className="btn btn-brand btn-bold">
+              <a href="/#" className="btn btn-brand btn-bold">
                 Save changes
               </a>
-              <a href="#" className="btn btn-clean btn-bold">
+              <a href="/#" className="btn btn-clean btn-bold">
                 Cancel
               </a>
             </div>

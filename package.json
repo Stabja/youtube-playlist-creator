@@ -1,9 +1,14 @@
 {
-  "name": "views",
-  "version": "0.1.0",
+  "name": "youtube-playlist-creator",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "client": "cd views && npm run start",
-    "server": "cd server && npm run dev"
+    "server": "cd server && npm run dev",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   }
 }

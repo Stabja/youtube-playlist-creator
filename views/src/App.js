@@ -6,9 +6,12 @@ import './styles/skins/header/base/light.css';
 import './styles/skins/header/menu/light.css';
 import './styles/skins/brand/dark.css';
 import './styles/skins/aside/dark.css';
+import axios from 'axios';
 
 // Components
 import Dashboard from './Dashboard';
+
+axios.defaults.baseURL = "http://localhost:3080";
 
 const App = () => {
   return (

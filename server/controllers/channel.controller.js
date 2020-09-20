@@ -66,7 +66,7 @@ exports.receiveAuthorizationCode = (req, res) => {
       console.log(`Error retrieving access token: ${err}`.red);
       return res.status(500).json(err);
     }
-    console.log(`Token Obtained: ${JSON.stringify(token, null, 2)}`.green);
+    //console.log(`Token Obtained: ${JSON.stringify(token, null, 2)}`.green);
     oauth2Client.setCredentials(token);
     writeCredentialsToFile(token);
     responseJson = token;
@@ -135,8 +135,6 @@ exports.getDudePerfectChannel = (req, res) => {
       console.log(`${JSON.stringify(err.errors, null, 2)}`.red);
       return res.status(500).json({ error: err });
     }
-    //let channels = res.data;
-    //console.log(`${JSON.stringify(channels, null, 2)}`.yellow);
     return res.json(response.data);
   });
 };

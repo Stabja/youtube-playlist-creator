@@ -1,4 +1,3 @@
-const colors = require('colors');
 const path = require('path');
 let TOKEN_DIR = path.join(__dirname, '../.credentials/');
 let OAUTH2_TOKEN = null;

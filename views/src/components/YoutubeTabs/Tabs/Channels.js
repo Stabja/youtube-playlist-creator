@@ -15,10 +15,10 @@ const Channels = () => {
           </div>
           <div className="row">
             <div className="col">
-              <a href="#" className="btn btn-label-brand btn-bold">
+              <a href="/#" className="btn btn-label-brand btn-bold">
                 Add notes
               </a>
-              <a href="#" className="btn btn-clean btn-bold">
+              <a href="/#" className="btn btn-clean btn-bold">
                 Cancel
               </a>
             </div>
@@ -36,7 +36,7 @@ const Channels = () => {
                 <img
                   className="kt-hidden-"
                   src="assets/media/users/100_3.jpg"
-                  alt="image"
+                  alt="img"
                 />
                 <span className="kt-notes__icon kt-font-boldest kt-hidden">
                   <i className="flaticon2-cup"></i>
@@ -48,7 +48,7 @@ const Channels = () => {
               <div className="kt-notes__content">
                 <div className="kt-notes__section">
                   <div className="kt-notes__info">
-                    <a href="#" className="kt-notes__title">
+                    <a href="/#" className="kt-notes__title">
                       New order
                     </a>
                     <span className="kt-notes__desc">9:30AM 16 June, 2015</span>
@@ -58,7 +58,7 @@ const Channels = () => {
                   </div>
                   <div className="kt-notes__dropdown">
                     <a
-                      href="#"
+                      href="/#"
                       className="btn btn-sm btn-icon-md btn-icon"
                       data-toggle="dropdown"
                     >
@@ -67,31 +67,31 @@ const Channels = () => {
                     <div className="dropdown-menu dropdown-menu-right">
                       <ul className="kt-nav">
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-line-chart"></i>
                             <span className="kt-nav__link-text">Reports</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-send"></i>
                             <span className="kt-nav__link-text">Messages</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-pie-chart-1"></i>
                             <span className="kt-nav__link-text">Charts</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-avatar"></i>
                             <span className="kt-nav__link-text">Members</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-settings"></i>
                             <span className="kt-nav__link-text">Settings</span>
                           </a>
@@ -116,14 +116,14 @@ const Channels = () => {
               <div className="kt-notes__content">
                 <div className="kt-notes__section">
                   <div className="kt-notes__info">
-                    <a href="#" className="kt-notes__title">
+                    <a href="/#" className="kt-notes__title">
                       Notification
                     </a>
                     <span className="kt-notes__desc">10:30AM 23 May, 2013</span>
                   </div>
                   <div className="kt-notes__dropdown">
                     <a
-                      href="#"
+                      href="/#"
                       className="btn btn-sm btn-icon-md btn-icon"
                       data-toggle="dropdown"
                     >
@@ -132,31 +132,31 @@ const Channels = () => {
                     <div className="dropdown-menu dropdown-menu-right">
                       <ul className="kt-nav">
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-line-chart"></i>
                             <span className="kt-nav__link-text">Reports</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-send"></i>
                             <span className="kt-nav__link-text">Messages</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-pie-chart-1"></i>
                             <span className="kt-nav__link-text">Charts</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-avatar"></i>
                             <span className="kt-nav__link-text">Members</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-settings"></i>
                             <span className="kt-nav__link-text">Settings</span>
                           </a>
@@ -181,7 +181,7 @@ const Channels = () => {
               <div className="kt-notes__content">
                 <div className="kt-notes__section">
                   <div className="kt-notes__info">
-                    <a href="#" className="kt-notes__title">
+                    <a href="/#" className="kt-notes__title">
                       System alert
                     </a>
                     <span className="kt-notes__desc">
@@ -190,7 +190,7 @@ const Channels = () => {
                   </div>
                   <div className="kt-notes__dropdown">
                     <a
-                      href="#"
+                      href="/#"
                       className="btn btn-sm btn-icon-md btn-icon"
                       data-toggle="dropdown"
                     >
@@ -199,31 +199,31 @@ const Channels = () => {
                     <div className="dropdown-menu dropdown-menu-right">
                       <ul className="kt-nav">
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-line-chart"></i>
                             <span className="kt-nav__link-text">Reports</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-send"></i>
                             <span className="kt-nav__link-text">Messages</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-pie-chart-1"></i>
                             <span className="kt-nav__link-text">Charts</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-avatar"></i>
                             <span className="kt-nav__link-text">Members</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-settings"></i>
                             <span className="kt-nav__link-text">Settings</span>
                           </a>
@@ -248,14 +248,14 @@ const Channels = () => {
               <div className="kt-notes__content">
                 <div className="kt-notes__section">
                   <div className="kt-notes__info">
-                    <a href="#" className="kt-notes__title">
+                    <a href="/#" className="kt-notes__title">
                       New order
                     </a>
                     <span className="kt-notes__desc">10:30AM 23 May, 2013</span>
                   </div>
                   <div className="kt-notes__dropdown">
                     <a
-                      href="#"
+                      href="/#"
                       className="btn btn-sm btn-icon-md btn-icon"
                       data-toggle="dropdown"
                     >
@@ -264,31 +264,31 @@ const Channels = () => {
                     <div className="dropdown-menu dropdown-menu-right">
                       <ul className="kt-nav">
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-line-chart"></i>
                             <span className="kt-nav__link-text">Reports</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-send"></i>
                             <span className="kt-nav__link-text">Messages</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-pie-chart-1"></i>
                             <span className="kt-nav__link-text">Charts</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-avatar"></i>
                             <span className="kt-nav__link-text">Members</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-settings"></i>
                             <span className="kt-nav__link-text">Settings</span>
                           </a>
@@ -313,14 +313,14 @@ const Channels = () => {
               <div className="kt-notes__content">
                 <div className="kt-notes__section">
                   <div className="kt-notes__info">
-                    <a href="#" className="kt-notes__title">
+                    <a href="/#" className="kt-notes__title">
                       Notification
                     </a>
                     <span className="kt-notes__desc">10:30AM 23 May, 2013</span>
                   </div>
                   <div className="kt-notes__dropdown">
                     <a
-                      href="#"
+                      href="/#"
                       className="btn btn-sm btn-icon-md btn-icon"
                       data-toggle="dropdown"
                     >
@@ -329,31 +329,31 @@ const Channels = () => {
                     <div className="dropdown-menu dropdown-menu-right">
                       <ul className="kt-nav">
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-line-chart"></i>
                             <span className="kt-nav__link-text">Reports</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-send"></i>
                             <span className="kt-nav__link-text">Messages</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-pie-chart-1"></i>
                             <span className="kt-nav__link-text">Charts</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-avatar"></i>
                             <span className="kt-nav__link-text">Members</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-settings"></i>
                             <span className="kt-nav__link-text">Settings</span>
                           </a>
@@ -378,14 +378,14 @@ const Channels = () => {
               <div className="kt-notes__content">
                 <div className="kt-notes__section">
                   <div className="kt-notes__info">
-                    <a href="#" className="kt-notes__title">
+                    <a href="/#" className="kt-notes__title">
                       Notification
                     </a>
                     <span className="kt-notes__desc">10:30AM 23 May, 2013</span>
                   </div>
                   <div className="kt-notes__dropdown">
                     <a
-                      href="#"
+                      href="/#"
                       className="btn btn-sm btn-icon-md btn-icon"
                       data-toggle="dropdown"
                     >
@@ -394,31 +394,31 @@ const Channels = () => {
                     <div className="dropdown-menu dropdown-menu-right">
                       <ul className="kt-nav">
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-line-chart"></i>
                             <span className="kt-nav__link-text">Reports</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-send"></i>
                             <span className="kt-nav__link-text">Messages</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-pie-chart-1"></i>
                             <span className="kt-nav__link-text">Charts</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-avatar"></i>
                             <span className="kt-nav__link-text">Members</span>
                           </a>
                         </li>
                         <li className="kt-nav__item">
-                          <a href="#" className="kt-nav__link">
+                          <a href="/#" className="kt-nav__link">
                             <i className="kt-nav__link-icon flaticon2-settings"></i>
                             <span className="kt-nav__link-text">Settings</span>
                           </a>
@@ -439,7 +439,7 @@ const Channels = () => {
                 <img
                   className="kt-hidden"
                   src="assets/media/users/100_1.jpg"
-                  alt="image"
+                  alt="img"
                 />
                 <span className="kt-notes__icon kt-font-boldest kt-hidden">
                   <i className="flaticon2-cup"></i>
@@ -452,7 +452,7 @@ const Channels = () => {
               <div className="kt-notes__content">
                 <div className="kt-notes__section">
                   <div className="kt-notes__info">
-                    <a href="#" className="kt-notes__title">
+                    <a href="/#" className="kt-notes__title">
                       Order
                     </a>
                     <span className="kt-notes__desc">
@@ -475,7 +475,7 @@ const Channels = () => {
                 <img
                   className="kt-hidden"
                   src="assets/media/users/100_1.jpg"
-                  alt="image"
+                  alt="img"
                 />
                 <span className="kt-notes__icon kt-font-boldest kt-hidden">
                   <i className="flaticon2-cup"></i>
@@ -488,7 +488,7 @@ const Channels = () => {
               <div className="kt-notes__content">
                 <div className="kt-notes__section">
                   <div className="kt-notes__info">
-                    <a href="#" className="kt-notes__title">
+                    <a href="/#" className="kt-notes__title">
                       Remarks
                     </a>
                     <span className="kt-notes__desc">

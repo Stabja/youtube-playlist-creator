@@ -1,5 +1,4 @@
 const { google } = require('googleapis');
-const { SCOPES } = require('../config/constants');
 const { asyncForEach } = require('../utils/globalUtils');
 
 

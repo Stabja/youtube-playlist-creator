@@ -1,3 +1,4 @@
+// eslint-disable-jsx-a11y/anchor-is-valid
 import React from 'react';
 
 const ChatPanel = () => {
@@ -16,7 +17,7 @@ const ChatPanel = () => {
                 <div className="kt-chat__head ">
                   <div className="kt-chat__left">
                     <div className="kt-chat__label">
-                      <a href="#" className="kt-chat__title">
+                      <a href="/#" className="kt-chat__title">
                         Jason Muller
                       </a>
                       <span className="kt-chat__status">
@@ -50,13 +51,13 @@ const ChatPanel = () => {
                           </li>
                           <li className="kt-nav__separator"></li>
                           <li className="kt-nav__item">
-                            <a href="#" className="kt-nav__link">
+                            <a href="/#" className="kt-nav__link">
                               <i className="kt-nav__link-icon flaticon2-group"></i>
                               <span className="kt-nav__link-text">New Group</span>
                             </a>
                           </li>
                           <li className="kt-nav__item">
-                            <a href="#" className="kt-nav__link">
+                            <a href="/#" className="kt-nav__link">
                               <i className="kt-nav__link-icon flaticon2-open-text-book"></i>
                               <span className="kt-nav__link-text">Contacts</span>
                               <span className="kt-nav__link-badge">
@@ -67,19 +68,19 @@ const ChatPanel = () => {
                             </a>
                           </li>
                           <li className="kt-nav__item">
-                            <a href="#" className="kt-nav__link">
+                            <a href="/#" className="kt-nav__link">
                               <i className="kt-nav__link-icon flaticon2-bell-2"></i>
                               <span className="kt-nav__link-text">Calls</span>
                             </a>
                           </li>
                           <li className="kt-nav__item">
-                            <a href="#" className="kt-nav__link">
+                            <a href="/#" className="kt-nav__link">
                               <i className="kt-nav__link-icon flaticon2-dashboard"></i>
                               <span className="kt-nav__link-text">Settings</span>
                             </a>
                           </li>
                           <li className="kt-nav__item">
-                            <a href="#" className="kt-nav__link">
+                            <a href="/#" className="kt-nav__link">
                               <i className="kt-nav__link-icon flaticon2-protected"></i>
                               <span className="kt-nav__link-text">Help</span>
                             </a>
@@ -88,13 +89,13 @@ const ChatPanel = () => {
                           <li className="kt-nav__foot">
                             <a
                               className="btn btn-label-brand btn-bold btn-sm"
-                              href="#"
+                              href="/#"
                             >
                               Upgrade plan
                             </a>
                             <a
                               className="btn btn-clean btn-bold btn-sm"
-                              href="#"
+                              href="/#"
                               data-toggle="kt-tooltip"
                               data-placement="right"
                               title="Click to learn more..."
@@ -128,10 +129,10 @@ const ChatPanel = () => {
                         <span className="kt-media kt-media--circle kt-media--sm">
                           <img
                             src="assets/media/users/100_12.jpg"
-                            alt="image"
+                            alt="img"
                           />
                         </span>
-                        <a href="#" className="kt-chat__username">
+                        <a href="/#" className="kt-chat__username">
                           Jason Muller
                         </a>
                         <span className="kt-chat__datetime">2 Hours</span>
@@ -144,13 +145,13 @@ const ChatPanel = () => {
                     <div className="kt-chat__message kt-chat__message--right kt-chat__message--brand">
                       <div className="kt-chat__user">
                         <span className="kt-chat__datetime">30 Seconds</span>
-                        <a href="#" className="kt-chat__username">
+                        <a href="/#" className="kt-chat__username">
                           You
                         </a>
                         <span className="kt-media kt-media--circle kt-media--sm">
                           <img
                             src="assets/media/users/300_21.jpg"
-                            alt="image"
+                            alt="img"
                           />
                         </span>
                       </div>
@@ -165,10 +166,10 @@ const ChatPanel = () => {
                         <span className="kt-media kt-media--circle kt-media--sm">
                           <img
                             src="assets/media/users/100_12.jpg"
-                            alt="image"
+                            alt="img"
                           />
                         </span>
-                        <a href="#" className="kt-chat__username">
+                        <a href="/#" className="kt-chat__username">
                           Jason Muller
                         </a>
                         <span className="kt-chat__datetime">30 Seconds</span>
@@ -178,13 +179,13 @@ const ChatPanel = () => {
                     <div className="kt-chat__message kt-chat__message--right kt-chat__message--brand">
                       <div className="kt-chat__user">
                         <span className="kt-chat__datetime">Just Now</span>
-                        <a href="#" className="kt-chat__username">
+                        <a href="/#" className="kt-chat__username">
                           You
                         </a>
                         <span className="kt-media kt-media--circle kt-media--sm">
                           <img
                             src="assets/media/users/300_21.jpg"
-                            alt="image"
+                            alt="img"
                           />
                         </span>
                       </div>
@@ -198,10 +199,10 @@ const ChatPanel = () => {
                         <span className="kt-media kt-media--circle kt-media--sm">
                           <img
                             src="assets/media/users/100_12.jpg"
-                            alt="image"
+                            alt="img"
                           />
                         </span>
-                        <a href="#" className="kt-chat__username">
+                        <a href="/#" className="kt-chat__username">
                           Jason Muller
                         </a>
                         <span className="kt-chat__datetime">2 Hours</span>
@@ -215,20 +216,20 @@ const ChatPanel = () => {
                     <div className="kt-chat__message kt-chat__message--right kt-chat__message--brand">
                       <div className="kt-chat__user">
                         <span className="kt-chat__datetime">30 Seconds</span>
-                        <a href="#" className="kt-chat__username">
+                        <a href="/#" className="kt-chat__username">
                           You
                         </a>
                         <span className="kt-media kt-media--circle kt-media--sm">
                           <img
                             src="assets/media/users/300_21.jpg"
-                            alt="image"
+                            alt="img"
                           />
                         </span>
                       </div>
                       <div className="kt-chat__text">
                         You can unwatch this repository immediately <br />
                         by clicking here:{' '}
-                        <a href="#" className="kt-font-bold kt-link"></a>
+                        <a href="/#" className="kt-font-bold kt-link"></a>
                       </div>
                     </div>
                     <div className="kt-chat__message kt-chat__message--success">
@@ -236,10 +237,10 @@ const ChatPanel = () => {
                         <span className="kt-media kt-media--circle kt-media--sm">
                           <img
                             src="assets/media/users/100_12.jpg"
-                            alt="image"
+                            alt="img"
                           />
                         </span>
-                        <a href="#" className="kt-chat__username">
+                        <a href="/#" className="kt-chat__username">
                           Jason Muller
                         </a>
                         <span className="kt-chat__datetime">30 Seconds</span>
@@ -249,13 +250,13 @@ const ChatPanel = () => {
                     <div className="kt-chat__message kt-chat__message--right kt-chat__message--brand">
                       <div className="kt-chat__user">
                         <span className="kt-chat__datetime">Just Now</span>
-                        <a href="#" className="kt-chat__username">
+                        <a href="/#" className="kt-chat__username">
                           You
                         </a>
                         <span className="kt-media kt-media--circle kt-media--sm">
                           <img
                             src="assets/media/users/300_21.jpg"
-                            alt="image"
+                            alt="img"
                           />
                         </span>
                       </div>
@@ -274,13 +275,13 @@ const ChatPanel = () => {
                   </div>
                   <div className="kt-chat__toolbar">
                     <div className="kt_chat__tools">
-                      <a href="#">
+                      <a href="/#">
                         <i className="flaticon2-link"></i>
                       </a>
-                      <a href="#">
+                      <a href="/#">
                         <i className="flaticon2-photograph"></i>
                       </a>
-                      <a href="#">
+                      <a href="/#">
                         <i className="flaticon2-photo-camera"></i>
                       </a>
                     </div>
