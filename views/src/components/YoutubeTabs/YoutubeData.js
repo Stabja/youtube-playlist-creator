@@ -60,7 +60,7 @@ const YoutubeData = () => {
         </div>
       </div>
       <div className="kt-portlet__body">
-        <div className="tab-content  kt-margin-t-20">
+        <div className="tab-content kt-margin-t-20">
           <Profile />
           <Videos />
           <Playlists />

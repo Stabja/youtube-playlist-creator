@@ -1,4 +1,3 @@
-// eslint-disable-jsx-a11y/anchor-is-valid
 import React from 'react';
 import ChannelInfo from './ChannelInfo';
 import ChannelContent from './ChannelContent';
@@ -12,10 +11,10 @@ const Profile = () => {
     >
       <div className="kt-grid__item kt-app__toggle kt-grid__item--fluid kt-app__content">
         <div className="row">
-          <div className="col col-md-3">
+          <div className="col col-xl-3 col-lg-4 col-md-5 col-sm-6 col-xs-6">
             <ChannelInfo />
           </div>
-          <div className="col col-md-9">
+          <div className="col col-xs-9 col-lg-8 col-md-7 col-sm-6 col-xs-6">
             <ChannelContent />
           </div>
         </div>

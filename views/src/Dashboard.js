@@ -18,7 +18,6 @@ import AppContent from './components/YoutubeTabs/Tabs/Profile/ChannelContent'; *
 const Dashboard = () => {
   return (
     <div className="kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-subheader--enabled kt-subheader--fixed kt-subheader--solid kt-aside--enabled kt-aside--fixed kt-page--loading">
-      {/* <!-- begin:: Page --> */}
       <div className="kt-grid kt-grid--hor kt-grid--root">
         <div className="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-page">
           <Sidebar />
@@ -37,25 +36,21 @@ const Dashboard = () => {
               id="kt_content"
               className="kt-negative-spacing--6 kt-content kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor"
             >
-              {/* <SubHeader /> */}
               <div className="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
                 <div className="kt-grid kt-grid--desktop kt-grid--ver kt-grid--ver-desktop kt-app">
-                  {/* <AppAside /> */}
-                  {/* <AppContent /> */}
                   <YoutubeData />
                 </div>
               </div>
             </div>
             <div
               id="kt_footer"
-              className="kt-footer  kt-grid__item kt-grid kt-grid--desktop kt-grid--ver-desktop"
+              className="kt-footer kt-grid__item kt-grid kt-grid--desktop kt-grid--ver-desktop"
             >
               <Footer />
             </div>
           </div>
         </div>
       </div>
-      {/* <!-- end:: Page --> */}
       <QuickPanel />
       <StickyToolbar />
       <DemoPanel />

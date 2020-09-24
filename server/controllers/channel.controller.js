@@ -32,20 +32,20 @@ exports.authorize = async (req, res) => {
     let authCode;
     try {
       authCode = await generateAuthUrl(oauth2Client);
-      return res.json({ code: authCode });
     } catch(err) {
       return res.status(500).json(err);
     }
+    return res.json({ code: authCode });
   }
   const token = await readCredentialsFromFile();
   let refreshedToken;
   try {
     let newToken = await oauth2Client.refreshToken(token.refresh_token);
     refreshedToken = newToken.res.data;
+    refreshedToken.refresh_token = token.refresh_token;
   } catch(err) {
     console.log(`${err.errors}`.red);
   }
-  refreshedToken.refresh_token = token.refresh_token;
   oauth2Client.credentials = refreshedToken;
   writeCredentialsToFile(refreshedToken);
   responseJson = refreshedToken;

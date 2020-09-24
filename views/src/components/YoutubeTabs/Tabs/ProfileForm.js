@@ -158,10 +158,10 @@ const ProfileForm = () => {
         <div className="row">
           <div className="col-xl-3"></div>
           <div className="col-lg-9 col-xl-6">
-            <a href="#" className="btn btn-brand btn-bold">
+            <a href="/#" className="btn btn-brand btn-bold">
               Save changes
             </a>
-            <a href="#" className="btn btn-clean btn-bold">
+            <a href="/#" className="btn btn-clean btn-bold">
               Cancel
             </a>
           </div>

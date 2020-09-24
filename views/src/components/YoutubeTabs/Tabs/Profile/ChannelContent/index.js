@@ -21,9 +21,9 @@ const ChannelContent = () => {
       <div className="col-xl-12">
         <div className="kt-portlet__head">
           <div className="kt-portlet__head-label">
-            <h3 className="kt-portlet__head-title">
+            <h2 className="kt-portlet__head-title">
               Personal Information{' '}<small>update your personal informaiton</small>
-            </h3>
+            </h2>
           </div>
           <div className="kt-portlet__head-toolbar">
             <div className="kt-portlet__head-wrapper">
@@ -111,12 +111,7 @@ const ChannelContent = () => {
                     </span>
                   </div>
                 </div>
-                <div className="row">
-                  <label className="col-xl-3"></label>
-                  <div className="col-lg-9 col-xl-6">
-                    <h3 className="kt-section__title kt-section__title-sm">Contact Info:</h3>
-                  </div>
-                </div>
+     
                 <div className="form-group row">
                   <label className="col-xl-3 col-lg-3 col-form-label">Contact Phone</label>
                   <div className="col-lg-9 col-xl-6">

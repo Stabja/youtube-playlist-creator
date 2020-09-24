@@ -1,4 +1,3 @@
-// eslint-disable-jsx-a11y/anchor-is-valid
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
@@ -24,8 +23,7 @@ const ChannelInfo = () => {
         method: 'GET',
         baseURL: 'http://localhost:3080/channels/me',
         headers: {
-          Authorization:
-            'Bearer ya29.a0AfH6SMDEC_Ox-4GevtdVXurSU9si197-Hc5-GqjjQEOEIJv9rBVQgo9GPfJFuJWWPh3EsA9QYJxlNBXf4damdxQfKl0rTr0ZbKsqqqv6o8615lIx1qpIrE2slykhioin33dLH4zC3MlE9NaiKyFHZfmNFO9Nw9F0rSnw',
+          Authorization: 'Bearer ya29.a0AfH6SMDVLrpVaXzNtjs9CV_R-jdp02LqdztUS46sHTwQii5KCpEZdCmqSx4xnY2_tPvmQbYIPFgkT80dOFHUk97-Q9gI6D85RFxwGKkqF_-oZX4b_6z5c1ukOQsZtZaNfBlzqRaVxL4pOy5XipFlJE7PSBYyr1D_xci0',
         },
         params: {
           key: 'AIzaSyCNw_f46Q9QlADv66oEH2Q5jK9wn7pFWO4',
@@ -50,9 +48,7 @@ const ChannelInfo = () => {
   return (
     <div id="kt_user_profile_aside">
       <div className="kt-portlet__head  kt-portlet__head--noborder">
-        <div className="kt-portlet__head-label">
-          <h3 className="kt-portlet__head-title">ABCD</h3>
-        </div>
+        <div className="kt-portlet__head-label"></div>
         <div className="kt-portlet__head-toolbar">
           <a
             href="/#"
@@ -66,6 +62,7 @@ const ChannelInfo = () => {
       </div>
       <div className="kt-portlet__body kt-portlet__body--fit-y">
         <div className="kt-widget kt-widget--user-profile-1">
+
           <div className="kt-widget__head">
             <div className="kt-widget__media">
               <img
@@ -75,10 +72,10 @@ const ChannelInfo = () => {
             </div>
             <div className="kt-widget__content">
               <div className="kt-widget__section">
-                <a href="/#" className="kt-widget__username">
+                <h3 className="kt-widget__username">
                   {channelState && channelState.snippet.title}
                   <i className="flaticon2-correct kt-font-success"></i>
-                </a>
+                </h3>
                 <span className="kt-widget__subtitle">
                 {channelState && channelState.statistics.subscriberCount} Subscribers
                 </span>
@@ -94,6 +91,7 @@ const ChannelInfo = () => {
               </div>
             </div>
           </div>
+          
           <div className="kt-widget__body">
             <div className="kt-widget__content">
               <div className="kt-widget__info">

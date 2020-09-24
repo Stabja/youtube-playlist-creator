@@ -314,7 +314,6 @@ const QuickPanel = () => {
                     <label>
                       <input
                         type="checkbox"
-                        checked="checked"
                         name="quick_panel_notifications_1"
                       />
                       <span></span>
@@ -345,7 +344,6 @@ const QuickPanel = () => {
                     <label>
                       <input
                         type="checkbox"
-                        checked="checked"
                         name="quick_panel_notifications_2"
                       />
                       <span></span>
@@ -364,7 +362,6 @@ const QuickPanel = () => {
                     <label>
                       <input
                         type="checkbox"
-                        checked="checked"
                         name="quick_panel_notifications_3"
                       />
                       <span></span>
@@ -397,7 +394,6 @@ const QuickPanel = () => {
                     <label>
                       <input
                         type="checkbox"
-                        checked="checked"
                         name="quick_panel_notifications_4"
                       />
                       <span></span>
@@ -418,7 +414,6 @@ const QuickPanel = () => {
                     <label>
                       <input
                         type="checkbox"
-                        checked="checked"
                         name="quick_panel_notifications_5"
                       />
                       <span></span>
@@ -451,7 +446,6 @@ const QuickPanel = () => {
                     <label>
                       <input
                         type="checkbox"
-                        checked="checked"
                         name="quick_panel_notifications_6"
                       />
                       <span></span>

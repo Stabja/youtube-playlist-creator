@@ -22,11 +22,7 @@ const Playlists = () => {
                 <div className="col-lg-9 col-xl-6">
                   <span className="kt-switch">
                     <label>
-                      <input
-                        type="checkbox"
-                        checked="checked"
-                        name="email_notification_1"
-                      />
+                      <input type="checkbox" name="email_notification_1" />
                       <span></span>
                     </label>
                   </span>
@@ -59,9 +55,7 @@ const Playlists = () => {
                 </div>
               </div>
               <div className="form-group row">
-                <label className="col-xl-3 col-lg-3 col-form-label">
-                  When To Email
-                </label>
+                <label className="col-xl-3 col-lg-3 col-form-label">When To Email</label>
                 <div className="col-lg-9 col-xl-6">
                   <div className="kt-checkbox-list">
                     <label className="kt-checkbox">
@@ -73,7 +67,7 @@ const Playlists = () => {
                       <span></span>
                     </label>
                     <label className="kt-checkbox">
-                      <input type="checkbox" checked="checked" /> Someone adds
+                      <input type="checkbox" /> Someone adds
                       you as a connection
                       <span></span>
                     </label>
@@ -81,8 +75,7 @@ const Playlists = () => {
                 </div>
               </div>
               <div className="form-group form-group-last row">
-                <label className="col-xl-3 col-lg-3 col-form-label">
-                  When To Escalate Emails
+                <label className="col-xl-3 col-lg-3 col-form-label">When To Escalate Emails
                 </label>
                 <div className="col-lg-9 col-xl-6">
                   <div className="kt-checkbox-list">
@@ -95,7 +88,7 @@ const Playlists = () => {
                       <span></span>
                     </label>
                     <label className="kt-checkbox kt-checkbox--brand">
-                      <input type="checkbox" checked="checked" /> Member
+                      <input type="checkbox" /> Member
                       registration
                       <span></span>
                     </label>
@@ -122,8 +115,7 @@ const Playlists = () => {
                 <div className="col-lg-9 col-xl-6">
                   <div className="kt-checkbox-list">
                     <label className="kt-checkbox">
-                      <input type="checkbox" /> News about Metronic product and
-                      feature updates
+                      <input type="checkbox" /> News about Metronic product and feature updates
                       <span></span>
                     </label>
                     <label className="kt-checkbox">
@@ -131,18 +123,15 @@ const Playlists = () => {
                       <span></span>
                     </label>
                     <label className="kt-checkbox">
-                      <input type="checkbox" checked="checked" /> Things you
-                      missed since you last logged into Keen
+                      <input type="checkbox" /> Things you missed since you last logged into Keen
                       <span></span>
                     </label>
                     <label className="kt-checkbox">
-                      <input type="checkbox" checked="checked" /> News about
-                      Metronic on partner products and other services
+                      <input type="checkbox" /> News about Metronic on partner products and other services
                       <span></span>
                     </label>
                     <label className="kt-checkbox">
-                      <input type="checkbox" checked="checked" /> Tips on
-                      Metronic business products
+                      <input type="checkbox" /> Tips on Metronic business products
                       <span></span>
                     </label>
                   </div>

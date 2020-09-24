@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="kt-container  kt-container--fluid ">
+    <div className="kt-container  kt-container--fluid">
       <div className="kt-footer__copyright">
         2020&nbsp;&copy;&nbsp;
         <a
