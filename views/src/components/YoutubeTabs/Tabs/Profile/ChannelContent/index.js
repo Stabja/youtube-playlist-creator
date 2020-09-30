@@ -1,20 +1,9 @@
-// eslint-disable-jsx-a11y/anchor-is-valid
 import React from 'react';
-import axios from 'axios';
 import DropdownMenu from './DropdownMenu';
+import { authenticateUser } from '../../../../../api/requests';
 
 
 const ChannelContent = () => {
-
-  const getAuthorizationCode = () => {
-    axios.get('/channels/authorize')
-      .then(res => {
-        console.log(res.data.code.spawnargs);
-      })
-      .catch(err => {
-        console.log({ err });
-      });
-  };
 
   return (
     <div className="row">
@@ -177,7 +166,7 @@ const ChannelContent = () => {
                   <button 
                     type="reset" 
                     className="btn btn-success"
-                    onClick={getAuthorizationCode}
+                    onClick={authenticateUser}
                   >
                     Submit
                   </button>

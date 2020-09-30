@@ -1,31 +1,34 @@
-var { google } = require('googleapis');
+let { google } = require('googleapis');
 const colors = require('colors');
-const { PLAYLIST_RESPONSE_PART } = require('../config/constants');
+const { 
+  PLAYLIST_RESPONSE_PART,
+  CREATE_PLAYLIST_RESPONSE_PART 
+} = require('../config/constants');
 const {
   getErrorCode,
   createPlaylist,
   searchVideo,
   insertPlaylistItem
 } = require('../helpers/playlistHelper');
-
+const service = google.youtube('v3');
 
 
 exports.getUserPlaylists = (req, res) => {
-  let service = google.youtube('v3');
   service.playlists.list({
     key: req.query.key,
     oauth_token: req.accessToken,
     part: PLAYLIST_RESPONSE_PART,
     maxResults: req.query.maxResults,
     mine: true,
+    pageToken: req.query.pageToken
   }, (err, response) => {
     if (err) {
       console.log(`The API returned an error: ${err}`.red);
       const { code, errors } = err;
       return res.status(getErrorCode(err)).json({ code, errors });
     }
-    let playlists = response.data.items;
-    playlists.map(item => {
+    let playlists = response.data;
+    playlists.items.map(item => {
       console.log(colors.magenta(item.snippet.title));
     });
     return res.json(response.data);
@@ -34,7 +37,6 @@ exports.getUserPlaylists = (req, res) => {
 
 
 exports.getPlaylistsByChannelId = (req, res) => {
-  let service = google.youtube('v3');
   service.playlists.list({
     key: req.query.key,
     oauth_token: req.accessToken,
@@ -44,10 +46,11 @@ exports.getPlaylistsByChannelId = (req, res) => {
   }, (err, response) => {
     if (err) {
       console.log(`The API returned an error: ${err}`.red);
-      return res.status(getErrorCode(err)).json(err);
+      const { code, errors } = err;
+      return res.status(getErrorCode(err)).json({ code, errors });
     }
-    let playlists = response.data.items;
-    playlists.map(item => {
+    let playlists = response.data;
+    playlists.items.map(item => {
       console.log(colors.magenta(item.snippet.title));
     });
     return res.json(response.data);
@@ -56,7 +59,6 @@ exports.getPlaylistsByChannelId = (req, res) => {
 
 
 exports.getPlaylistById = (req, res) => {
-  let service = google.youtube('v3');
   service.playlistItems.list({
     key: req.query.key,
     oauth_token: req.accessToken,
@@ -69,8 +71,8 @@ exports.getPlaylistById = (req, res) => {
       const { code, errors } = err;
       return res.status(getErrorCode(err)).json({ code, errors });
     }
-    let playlists = response.data.items;
-    playlists.map(item => {
+    let playlists = response.data;
+    playlists.items.map(item => {
       console.log(colors.cyan(JSON.stringify(item.snippet.title, null, 2)));
     });
     return res.json(response.data);
@@ -79,18 +81,18 @@ exports.getPlaylistById = (req, res) => {
 
 
 exports.createNewPlaylist = async (req, res) => {
-  let youtube = google.youtube('v3');
   let response;
   try {
-    response = await youtube.playlists.insert({
+    response = await  service.playlists.insert({
       key: req.query.key,
       oauth_token: req.accessToken,
-      part: req.query.part,
+      part: CREATE_PLAYLIST_RESPONSE_PART,
       requestBody: req.body
     });
   } catch(err) {
     console.log(`The API returned an error: ${err}`.red);
-    return res.status(getErrorCode(err)).json(err);
+    const { code, errors } = err;
+    return res.status(getErrorCode(err)).json({ code, errors });
   }
   return res.json(response.data);
 };

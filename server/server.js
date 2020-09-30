@@ -9,6 +9,7 @@ const cors = require('cors');
 // Import the routes
 let channelRouter = require('./routes/channel.route');
 let playlistRouter = require('./routes/playlist.route');
+let videosRouter = require('./routes/video.route');
 
 // Helper Functions
 const {
@@ -46,6 +47,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Assign Routes
 app.use('/channels', channelRouter);
 app.use('/playlists', playlistRouter);
+app.use('/videos', videosRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

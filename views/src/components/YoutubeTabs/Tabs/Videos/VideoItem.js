@@ -3,7 +3,16 @@ import PropTypes from 'prop-types';
 
 
 const VideoItem = props => {
-  const { thumbnail, title, description, channel, publishedAt, views, likes } = props.video;
+  const { 
+    videoId,
+    thumbnail,
+    title,
+    description,
+    channelTitle,
+    publishedAt,
+    views,
+    likes
+  } = props.video;
 
   return (
     <div className="kt-widget5__item">
@@ -12,17 +21,17 @@ const VideoItem = props => {
           <img
             className="kt-widget7__img"
             src={thumbnail}
-            alt="cbfdbd"
+            alt="thumbnail"
           />
         </div>
         <div className="kt-widget5__section">
-          <a href="#" className="kt-widget5__title">
+          <a href={`https://www.youtube.com/watch?v=${videoId}`} className="kt-widget5__title">
             {title}
           </a>
-          <p className="kt-widget5__desc">{description}</p>
+          <p className="kt-widget5__desc">{description.substring(0, 100)}</p>
           <div className="kt-widget5__info">
             <span>Channel:</span>
-            <span className="kt-font-info">{channel}</span>
+            <span className="kt-font-info">{channelTitle}</span>
             <span>Published:</span>
             <span className="kt-font-info">{publishedAt}</span>
           </div>

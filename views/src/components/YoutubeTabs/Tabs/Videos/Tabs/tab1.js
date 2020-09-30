@@ -1,25 +1,29 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import VideoItem from '../VideoItem';
+import { fetchLikedVideos } from '../../../../../api/requests';
 
 
 const Tab1 = (props) => {
-  const { videos } = props;
+  const [videos, setVideos] = useState(null);
+
+  useEffect(() => {
+    setVideos(fetchLikedVideos());
+  }, []);
 
   return (
     <div className="tab-pane active" id="kt_widget5_tab1_content" aria-expanded="true">
       <div className="kt-widget5">
         <div className="row">
           <div className="col-sm-8">
-            <VideoItem video={videos[0]} />
-            <VideoItem video={videos[1]} />
-            <VideoItem video={videos[2]} />
-            <VideoItem video={videos[3]} />
-            <VideoItem video={videos[4]} />
-            <VideoItem video={videos[5]} />
-            <VideoItem video={videos[6]} />
-            <VideoItem video={videos[7]} />
-            <VideoItem video={videos[8]} />
+            {videos ? videos.map(video => {
+              return (
+                <VideoItem
+                  key={video.videoId}
+                  video={video} 
+                />
+              )
+            }) : <p>Fetching Videos....</p>}
           </div>
         </div>
       </div>
@@ -28,7 +32,7 @@ const Tab1 = (props) => {
 };
 
 Tab1.propTypes = {
-  videos: PropTypes.array.isRequired
+  videos: PropTypes.array
 };
 
 export default Tab1;

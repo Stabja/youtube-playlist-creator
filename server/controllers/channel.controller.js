@@ -11,7 +11,8 @@ const {
 } = require('../utils/globalUtils');
 let {
   getToken,
-  credentials
+  credentials,
+  CHANNEL_RESPONSE_PART
 } = require('../config/constants');
 let oauth2Client = null;
 
@@ -84,7 +85,7 @@ exports.getChannelById = async (req, res) => {
       oauth_token: req.accessToken,
       key: req.query.key,
       id: req.query.id,
-      part: req.query.part
+      part: CHANNEL_RESPONSE_PART
     });
   } catch(err) {
     console.log(`${err}`.red);
@@ -104,7 +105,7 @@ exports.getUserChannel = (req, res) => {
   service.channels.list({
     oauth_token: req.accessToken,
     key: req.query.key,
-    part: req.query.part,
+    part: CHANNEL_RESPONSE_PART,
     mine: req.query.mine
   }, (err, response) => {
     if (err) {
@@ -129,7 +130,7 @@ exports.getDudePerfectChannel = (req, res) => {
     oauth_token: req.accessToken,
     key: req.query.key,
     id: 'UCRijo3ddMTht_IHyNSNXpNQ',
-    part: req.query.part,
+    part: CHANNEL_RESPONSE_PART
   }, (err, response) => {
     if (err) {
       console.log(`${JSON.stringify(err.errors, null, 2)}`.red);

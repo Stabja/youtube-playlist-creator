@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 
 // Icons
 import DropdownMenu from './DropdownMenu';
@@ -12,36 +11,17 @@ import SavedCreditIcon from './Icons/SCicon';
 import TaxInfoIcon from './Icons/TIicon';
 import StatementsIcon from './Icons/StmtIcon';
 
+// Api Request
+import { fetchUserChannelDetails } from '../../../../../api/requests';
 
 
 const ChannelInfo = () => {
   const [channelState, setChannelState] = useState(null);
 
+  
   useEffect(() => {
-    const getUserChannel = () => {
-      const options = {
-        method: 'GET',
-        baseURL: 'http://localhost:3080/channels/me',
-        headers: {
-          Authorization: 'Bearer ya29.a0AfH6SMDVLrpVaXzNtjs9CV_R-jdp02LqdztUS46sHTwQii5KCpEZdCmqSx4xnY2_tPvmQbYIPFgkT80dOFHUk97-Q9gI6D85RFxwGKkqF_-oZX4b_6z5c1ukOQsZtZaNfBlzqRaVxL4pOy5XipFlJE7PSBYyr1D_xci0',
-        },
-        params: {
-          key: 'AIzaSyCNw_f46Q9QlADv66oEH2Q5jK9wn7pFWO4',
-          part:
-            'brandingSettings,contentDetails,contentOwnerDetails,id,localizations,snippet,statistics,status,topicDetails',
-          mine: true,
-        },
-      };
-      axios(options)
-        .then((res) => {
-          setChannelState(res.data.items[0]);
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-    };
-
-    getUserChannel();
+    let userChannel = fetchUserChannelDetails();
+    setChannelState(userChannel);
   }, []);
 
 

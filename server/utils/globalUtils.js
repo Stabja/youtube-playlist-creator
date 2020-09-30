@@ -7,6 +7,10 @@ const {
 const moment = require('moment');
 
 
+exports.getErrorCode = (err) => {
+  return err.code ? err.code : 500
+};
+
 
 exports.asyncForEach = async (array, callback) => {
   for(let i = 0; i < array.length; i++){
@@ -37,6 +41,7 @@ exports.deleteCredentialsIfExpired = (token) => {
     try {
       fs.unlinkSync(TOKEN_PATH);
       console.log('Token Deleted'.red);
+      setToken(null);
     } catch(err) {
       console.log(`${err}`.red);
     }

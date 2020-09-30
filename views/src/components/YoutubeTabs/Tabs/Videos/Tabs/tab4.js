@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import VideoItem from '../VideoItem';
-import { fetchMostPopularMusicVideos } from '../../../../../api/requests';
+import { fetchMostPopularSportsVideos } from '../../../../../api/requests';
 
 
 const Tab3 = (props) => {
   const [videos, setVideos] = useState(null);
 
   useEffect(() => {
-    setVideos(fetchMostPopularMusicVideos());
+    setVideos(fetchMostPopularSportsVideos());
   }, []);
 
   return (
-    <div className="tab-pane" id="kt_widget5_tab3_content">
+    <div className="tab-pane" id="kt_widget5_tab4_content">
       <div className="kt-widget5">
         <div className="row">
           <div className="col-sm-8">

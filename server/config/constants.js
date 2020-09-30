@@ -78,13 +78,22 @@ module.exports = {
   API_KEY: 'AIzaSyCNw_f46Q9QlADv66oEH2Q5jK9wn7pFWO4',
   DUDEPERFECT_CHANNEL_ID: 'UCRijo3ddMTht_IHyNSNXpNQ',
   USER_CHANNEL_ID: 'UCVHXm9tFq8TnYkpeIq4MyDw',
+  CHANNEL_FULL_RESPONSE_PART: 'snippet,statistics,brandingSettings,auditDetails,contentDetails,contentOwnerDetails,id,localizations,status,topicDetails',
   CHANNEL_RESPONSE_PART: 'snippet,contentDetails,statistics,brandingSettings,localizations,status,topicDetails',
   PLAYLIST_ID: 'PLWXEpzKs5gtMObzkIPdCYq4KFVrVx90TQ',
+  PLAYLIST_FULL_RESPONSE_PART: 'snippet,id,localizations,player,contentDetails,status',
   PLAYLIST_RESPONSE_PART: 'snippet,contentDetails',
+  CREATE_PLAYLIST_RESPONSE_PART: 'snippet,status,contentDetails,localizations,player',
+  PLAYLIST_SNIPPET_PART: 'snippet',
+  VIDEOS_RESPONSE_PART: 'snippet,statistics,contentDetails,status',
+  VIDEOS_RESPONSE_PART_LESS: 'snippet,statistics,status',
+  VIDEOS_SNIPPET_PART: 'snippet',
+  VIDEOS_STATISTICS_PART: 'statistics',
+  VIDEOS_CONTENT_PART: 'contentDetails',
   OAUTH2_TOKEN,
   CREDENTIALS,
   setToken: (token) => {
-    OAUTH2_TOKEN = token.access_token;
+    OAUTH2_TOKEN = token !== null ? token.access_token : null;
     CREDENTIALS = token;
   },
   getToken: () => {
