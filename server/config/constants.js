@@ -1,5 +1,5 @@
 const path = require('path');
-let TOKEN_DIR = path.join(__dirname, '../.credentials/');
+let TOKEN_DIR = path.join(__dirname, '../credentials/');
 let OAUTH2_TOKEN = null;
 let CREDENTIALS = null;
 //console.log(colors.blue({ TOKEN_DIR }));

@@ -19,6 +19,7 @@ exports.asyncForEach = async (array, callback) => {
 };
 
 
+
 exports.readCredentialsFromFile = () => {
   return new Promise((resolve, reject) => {
     fs.readFile(TOKEN_PATH, (err, token) => {

@@ -1,7 +1,0 @@
-{
-    "access_token": "ya29.a0AfH6SMCF44-AbNdgWUJxC6zTDrv9yOybyval56b6OMQx0MsAFCF_CPr2NhhvU3vNbbOJrXgnePhcIftbbsscOtqbMEsrgCyBapTXhLjstEXMM5RBwF6TzRrYONS3d1s3RnwP4dLFYc9DteMmRFT8O_KnGGt6otM-KbY",
-    "scope": "https://www.googleapis.com/auth/youtube https://www.googleapis.com/auth/youtube.readonly https://www.googleapis.com/auth/youtube.force-ssl",
-    "token_type": "Bearer",
-    "expiry_date": 1601425651200,
-    "refresh_token": "1//0gdXlCBiiVWpICgYIARAAGBASNwF-L9IrrL4IWxiiQp917Rj5ChVU6FiCMyOGcLLTWcngJjrjv00BDsHaJH0Y0UOfJfa2Jor0f_Y"
-}
